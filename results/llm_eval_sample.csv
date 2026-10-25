@@ -1,0 +1,151 @@
+PuzzleId,FEN,Moves,Rating,Popularity,mate_n,rating_norm,has_opening_move,source
+polgar_0034,k1r5/8/P7/8/1Q6/8/8/6K1 w - - 0 1,b4b7,910.0,91.0,1,0.234375,False,polgar
+polgar_0297,8/rn4p1/1k4P1/p2P4/Pp3N2/1K6/2R5/8 w - - 0 1,c2c6,910.0,91.0,1,0.234375,False,polgar
+polgar_0086,7R/5p2/6k1/5p2/8/8/8/1KQ5 w - - 0 1,c1h6,910.0,91.0,1,0.234375,False,polgar
+polgar_0078,8/3Np2R/4k3/2R2N2/8/8/8/K7 w - - 0 1,h7e7,910.0,91.0,1,0.234375,False,polgar
+polgar_0283,1k6/pq6/4Np2/4bP2/2p2B2/P1P3P1/KQ4r1/7R w - - 0 1,h1h8,910.0,91.0,1,0.234375,False,polgar
+polgar_0258,1kr4r/p1ppb1pp/1p3q2/P3N3/3P1n2/1P3B2/R1PQ1PPP/4R1K1 w - - 0 1,e5d7,910.0,91.0,1,0.234375,False,polgar
+polgar_0295,7r/4K3/R7/4k3/4p3/5p2/4N3/8 w - - 0 1,a6a5,910.0,91.0,1,0.234375,False,polgar
+polgar_0080,8/8/8/8/2R5/3k3B/8/2B4K w - - 0 1,h3f1,910.0,91.0,1,0.234375,False,polgar
+polgar_0164,3q1rrb/2p2pkp/1p2b1p1/p5PP/8/2NB4/PPPQ1P2/2KR2R1 w - - 0 1,h5h6,910.0,91.0,1,0.234375,False,polgar
+polgar_0246,4r3/p2nr1pp/1p1k1p2/n4P2/1KPP4/2N1P1P1/P5BP/1R2R3 w - - 0 1,c3b5,910.0,91.0,1,0.234375,False,polgar
+polgar_0059,8/8/6k1/6B1/8/6N1/Q7/7K w - - 0 1,a2g8,910.0,91.0,1,0.234375,False,polgar
+polgar_0134,5K1k/7p/8/8/8/8/7B/8 w - - 0 1,h2e5,910.0,91.0,1,0.234375,False,polgar
+polgar_0073,2K5/k1N5/8/8/8/8/8/B7 w - - 0 1,a1d4,910.0,91.0,1,0.234375,False,polgar
+polgar_0109,K7/8/8/5N2/4p3/4N3/5k2/Q7 w - - 0 1,a1f1,910.0,91.0,1,0.234375,False,polgar
+polgar_0252,6R1/ppkb3p/2pb4/5p1q/8/1PN3P1/P1Q2PKP/4r3 w - - 0 1,c3d5,910.0,91.0,1,0.234375,False,polgar
+polgar_0210,5qk1/6np/8/5nN1/8/7Q/7P/7K w - - 0 1,h3h7,910.0,91.0,1,0.234375,False,polgar
+polgar_0033,3bk3/R3p3/3P4/8/8/8/8/4KR2 w - - 0 1,d6d7,910.0,91.0,1,0.234375,False,polgar
+polgar_0300,r2q1k1r/pp2b1pp/3p1n2/4p1N1/4P1b1/PQN1B3/1P3PPP/3RR1K1 w - - 0 1,b3f7,910.0,91.0,1,0.234375,False,polgar
+polgar_0068,7k/1K5B/8/8/8/8/1R6/B7 w - - 0 1,b2h2,910.0,91.0,1,0.234375,False,polgar
+polgar_0049,8/5P2/5k2/5B2/5K2/8/8/8 w - - 0 1,f7f8q,910.0,91.0,1,0.234375,False,polgar
+polgar_0174,3r1rk1/ppq2p2/5Bp1/4p2p/4Q3/1BN5/PPP2PPP/6K1 w - - 0 1,e4g6,910.0,91.0,1,0.234375,False,polgar
+polgar_0200,6k1/6pn/6N1/8/8/5BP1/6KP/8 w - - 0 1,f3d5,910.0,91.0,1,0.234375,False,polgar
+polgar_0076,7k/8/5N2/8/8/8/8/6RK w - - 0 1,g1g8,910.0,91.0,1,0.234375,False,polgar
+polgar_0072,3BB3/5N1K/8/7k/8/8/8/8 w - - 0 1,f7h6,910.0,91.0,1,0.234375,False,polgar
+polgar_0267,r4rk1/6bn/3p2Np/5Np1/6P1/8/PP5P/2KR1R2 w - - 0 1,f5e7,910.0,91.0,1,0.234375,False,polgar
+polgar_0045,8/8/8/7R/3k4/1KR5/5P2/6B1 w - - 0 1,f2f3,910.0,91.0,1,0.234375,False,polgar
+polgar_0019,rnb4k/p5pp/8/4N3/8/1B6/PPP5/2K4R w - - 0 1,e5g6,910.0,91.0,1,0.234375,False,polgar
+polgar_0232,r2q2kn/ppp2R1R/2np2p1/7p/2P4P/1PN3P1/P1BB1P2/6K1 w - - 0 1,h7g7,910.0,91.0,1,0.234375,False,polgar
+polgar_0128,3rkr2/7Q/4K3/8/8/8/8/8 w - - 0 1,h7e7,910.0,91.0,1,0.234375,False,polgar
+polgar_0082,8/8/8/8/2R5/3kb2B/3p4/7K w - - 0 1,h3f1,910.0,91.0,1,0.234375,False,polgar
+polgar_0464,r2n1r1Q/1p2qk2/3p2p1/p2P4/Pn1BB1P1/8/5P1P/5K2 w - - 0 1,e4g6 f7g6 h8h5,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3688,7b/3p4/1p1R4/2p2N1R/1rp1k1P1/1P2PnQp/4qPn1/3b3K w - - 0 1,g3f4 g2f4 f5g3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1133,1r4rb/5pkn/8/4q1PP/8/p2Q4/PP6/1K3R2 w - - 0 1,d3g6 f7g6 h5h6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0835,N1R4K/r7/3p1P2/p2k2pQ/r1p1R3/4qP2/3bn1n1/8 w - - 0 1,h5g5 e3g5 a8b6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3682,1q6/2p1b3/2Rp2p1/K1N1N3/p2k2P1/2pP1n2/B2Qrrn1/2B5 w - - 0 1,d2c3 d4c3 c5e6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3435,8/1K1k1P2/8/8/4R3/1N6/8/8 w - - 0 1,f7f8r d7d6 f8d8,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3687,7q/2pn2p1/7p/5b2/p7/PB2Qp2/pp1KPP2/bk6 w - - 0 1,e3e6 a4b3 e6f5,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1051,n2N4/k7/p7/n1P4P/3K4/8/1R6/2q5 w - - 0 1,b2b7 a5b7 d8c6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1362,8/2r3p1/1k3p2/1p1PpP2/pK2P3/P1R4r/1PR5/8 b - - 0 1,c7c4 c3c4 h3b3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_2437,R7/7B/8/8/8/1N6/1p1p4/3k1K2 w - - 0 1,a8a2 b2b1q a2d2,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0547,8/6r1/4B3/n1p1p1rb/2p1kbpR/1pR1P3/4NPP1/1K6 w - - 0 1,e2g3 f4g3 f2f3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1283,k1r5/pp6/b7/Q2P4/4qppP/2P5/PP2rPPB/R2R2K1 b - - 0 1,e2f2 g1f2 e4e3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0782,3r1r2/pp2Qp2/7p/4PPpk/R6p/1P3N2/P3q1PP/6K1 w - - 0 1,a4h4 g5h4 e7h4,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1269,1k2r3/pp4pq/7p/3p4/3P4/1QP1R3/PP1N1PPp/4RK2 b - - 0 1,h7d3 e3d3 h2h1r,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3179,8/8/8/2K5/8/2kp4/Q2p4/b2R4 w - - 0 1,d1d2 a1b2 a2b2,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_2379,1R2B3/8/8/8/2kP4/2N2K2/8/Q7 w - - 0 1,c3b5 c4b3 b5a3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0346,8/8/1Q6/4k3/7K/3PN3/4P3/8 w - - 0 1,e3g4 e5d5 e2e4,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3695,b2Nn3/n5pp/4Q3/2ppbP2/3p1kPp/3Pp3/3qB2P/5K2 w - - 0 1,e6h6 g7g5 d8e6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0637,8/3p1K1p/Q7/2PR4/2brk3/4p1B1/4P3/7q w - - 0 1,a6e6 d7e6 d5e5,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0514,4B2r/8/8/3K2p1/5kP1/R5pP/5r2/4N3 w - - 0 1,a3f3 f2f3 e1g2,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1566,8/1KP3N1/3k4/7R/1PP5/8/8/8 w - - 0 1,c7c8n d6d7 h5d5,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_2101,R7/8/N1k1B3/K4N2/8/8/8/8 w - - 0 1,a6c5 c6c5 a8c8,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0791,5rk1/RR4pp/6r1/7q/1Q5P/6P1/7K/8 w - - 0 1,b4f8 g8f8 a7a8,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0749,1bk5/1R6/1K6/3R4/4r3/8/5r2/8 w - - 0 1,b7b8 c8b8 d5d8,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3667,3q1BK1/6pQ/p7/r3k2p/3N1R1r/2p2pn1/2N5/8 w - - 0 1,h7e4 g3e4 f4f5,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0512,4NQ2/1p5r/8/1P1k2q1/N2bRp2/2p1n3/2P3PP/6K1 w - - 0 1,f8c5 d4c5 a4c3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_0315,8/8/8/6N1/8/4K3/7k/5Q2 w - - 0 1,f1h3 h2g1 g5f3,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_2428,8/8/1K6/3kN3/4N1Q1/2Pb4/8/8 w - - 0 1,e5c4 d5c4 g4e6,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1270,6k1/1pp3p1/4NpPp/3P4/7Q/2rn2N1/P4Pq1/RK3R2 b - - 0 1,g2f1 g3f1 c3c1,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_1075,rnbq1r2/pppp2k1/1b3N2/4N1pQ/2BP4/6p1/PPP4P/R4K1R w - - 0 1,h5h7 g7f6 e5g4,1085.0,92.0,2,0.3862847222222222,False,polgar
+polgar_3788,8/8/1B2p3/1N6/8/2Nn4/3n2K1/4k3 w - - 0 1,b6f2 d3f2 b5d4 e6e5 d4c2,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4421,1r3k1r/p1p3p1/3q1n2/2b3p1/4p1b1/1B1P2P1/PPPQ1P1P/RNB2RK1 b - - 0 1,d6g3 h2g3 g4f3 d2g5 h8h1,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4075,8/p7/K7/p3p2p/NkN1p2P/8/PP4P1/8 w - - 0 1,c4e3 b4a4 e3c2 e4e3 b2b3,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3979,2B1N1K1/1n6/5pkp/6pr/6P1/8/8/5r2 w - - 0 1,c8f5 f1f5 e8g7 h5h1 g4f5,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4333,R4Q2/p2r2pk/1p4qp/8/2P5/1P5b/P4PPP/5BK1 b - - 0 1,g6g2 f1g2 d7d1 g2f1 d1f1,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4313,rn1k3r/pp4Qp/2p1p3/4P3/Pbpqn3/2N5/1P4PP/R1B1KB1R b KQ - 0 1,b4c3 b2c3 d4f2 e1d1 e4c3,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4381,1Q3br1/7p/5k2/1b2pp2/4p3/2Pq4/PP3PPP/4R1KR b - - 0 1,g8g2 g1g2 d3f3 g2g1 f3g4,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4014,6R1/5p1p/6p1/6Pk/2p2P2/2q3PK/8/8 w - - 0 1,g8h8 c3g3 h3g3 f7f6 h8h7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4109,r4rk1/6p1/3Ppp2/pp1qN1QP/2pPR3/8/PPP2P2/1K5R w - - 0 1,h5h6 a8a7 h6h7 g8h8 e5g6,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4260,2nr2k1/p4R1p/b5p1/2PP4/2nB2P1/1B3P2/PPQ3KP/4q2N b - - 0 1,c4e3 d4e3 a6f1 g2g1 f1h3,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3869,2rn1k1r/1R3p1p/6p1/2b3P1/5nNP/1B5q/5P2/3Q2K1 w - - 0 1,d1d8 c8d8 b7f7 f8e8 g4f6,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4108,r4rk1/ppq2p1p/1b2nPpQ/3p4/6N1/8/PB3PPP/R4RK1 w - - 0 1,h6g7 e6g7 g4h6 g8h8 f6g7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3932,r1kb2n1/pp4p1/2nPp2r/4N3/2Q5/8/PPPP1qP1/R1BK1B2 w - - 0 1,c4c6 b7c6 f1a6 c8b8 e5d7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4078,8/r1N4p/1pR5/5k1K/3Pp3/4P1pp/4r3/1q6 w - - 0 1,c7e8 a7f7 c6f6 f7f6 e8g7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4310,2k3r1/1pp5/p1p5/4R2p/7n/2NP3P/PPP2r2/6RK b - - 0 1,f2h2 h1h2 h4f3 h2h1 g8g1,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4154,r5k1/pppq1p2/3b1B2/8/3Q4/5P2/P1P2P1r/4RRK1 b - - 0 1,h2h1 g1h1 d7h3 h1g1 h3h2,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3730,8/5Q2/1p5k/2b1p1p1/P3P2p/2P1BPPP/1P2n2K/3q4 w - - 0 1,e3g5 h6g5 f7g7 g5h5 g3g4,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4461,r1b2r1k/pp4pB/6Q1/3p2N1/2n5/1N2P1P1/PP3q1P/2R4K b - - 0 1,f2f1 c1f1 f8f1 h1g2 c4e3,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3870,3r1k2/1bb2p1p/6pN/6Pq/B4n2/6P1/5P2/3QR1K1 w - - 0 1,d1d8 c7d8 e1e8 f8g7 e8g8,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3847,n7/kr1P4/8/Kp6/8/8/8/7Q w - - 0 1,d7d8n b7b6 h1b7 b6b7 d8c6,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4117,K6k/1p4R1/p3N2P/b2p2p1/B1p5/2p5/1r6/8 w - - 0 1,a4c2 a5b4 e6g5 a6a5 g5f7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4140,r5k1/p3Qpbp/2p3p1/1p6/q3bN2/6PP/PP3P2/K2RR3 b - - 0 1,g7b2 a1b2 a4c2 b2a1 c2c3,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3948,2k1N3/3pK3/P2P4/1q6/1r2Q3/8/8/8 w - - 0 1,e4a8 b5b8 a8c6 d7c6 d6d7,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3896,8/2p3r1/1p5p/5K1k/8/R5P1/1P4P1/8 w - - 0 1,g3g4 g7g4 a3h3 g4h4 g2g4,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4324,2k1r3/Qpp4p/8/5b2/5pp1/2P3n1/PP3KP1/RNB5 b - - 0 1,e8e2 f2g1 e2e1 g1f2 e1f1,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3834,2R5/5pkp/p3p1r1/3bP1P1/3NqQP1/8/5P2/6K1 w - - 0 1,f4f6 g6f6 e5f6 g7g6 c8g8,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_3724,2q5/1r2Bp1k/4pQpN/1pp1P2p/2p5/6P1/1P2PPKP/3r4 w - - 0 1,f6f7 h7h6 e7g5 h6g5 f7f4,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4198,6k1/p4p1p/p2p2p1/P1pP4/3b1P1P/2P1rb1q/RP3N1P/2R2QK1 b - - 0 1,e3e1 c1e1 h3g4 f1g2 g4g2,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4107,r2q1r2/pppkbbNp/2n2n2/4p3/2Q1P3/PBN1B3/1PP2PPP/R3K2R w KQ - 0 1,c4e6 f7e6 b3e6 d7d6 c3b5,1325.0,92.0,3,0.5946180555555556,False,polgar
+polgar_4025,2r4k/1b1nqr1p/p3B2Q/1p2P1R1/3p1P2/1P2p2P/P1P4K/6R1 w - - 0 1,h6h7 f7h7 g5g8 c8g8 g1g8,1325.0,92.0,3,0.5946180555555556,False,polgar
+3Vvre,2rk3r/1Rp2p2/5q2/1BBPb3/8/2N3p1/1PP3P1/Q3R1K1 w - - 2 29,d5d6 e5d4 c5d4 f6d4 e1e3 d4e3 g1f1 h8h1,1978.0,69.0,4,1.0,True,lichess
+ww4mU,2r5/8/3R2k1/5p1p/1pr3p1/2b1P1P1/2R1KP1P/8 b - - 3 38,g6g5 h2h4 g4h3 f2f4 c4f4 e3f4 g5g4 d6g6,2019.0,94.0,4,1.0,True,lichess
+E0Dnk,5rk1/R4ppp/8/1p6/2p1n3/2P1PQ1P/3P2BK/4q3 b - - 4 26,e4d2 f3f7 f8f7 a7a8 f7f8 g2d5 g8h8 a8f8,1607.0,73.0,4,0.8394097222222222,True,lichess
+DjN4X,1kr3r1/1p2R3/3p4/1p1N4/3RP1p1/P7/5PP1/6K1 w - - 0 30,d4b4 c8c1 g1h2 g4g3 f2g3 g8h8 e7h7 h8h7,1876.0,92.0,4,1.0,True,lichess
+wm4tm,8/5Q2/4p1pk/4P2p/1P3P2/8/3q1KPP/8 w - - 6 48,f2g3 d2e3 g3h4 g6g5 f4g5 e3g5 h4h3 g5g4,2108.0,93.0,4,1.0,True,lichess
+o5ZfQ,r1b1B2k/4n1pp/p1pp4/1p5Q/PP2P3/2PPq3/3N2PP/5R1K b - - 0 21,e3d2 f1f8 e7g8 f8g8 h8g8 h5f7 g8h8 f7f8,1247.0,93.0,4,0.5269097222222222,True,lichess
+wnTPk,5k2/2p4Q/3p4/rp1P1BP1/2Pq3K/pP5P/P3n3/4R3 w - - 5 32,f5g4 d4f2 h4h5 e2f4 h5h6 f2h4 g4h5 h4h5,1725.0,90.0,4,0.9418402777777778,True,lichess
+DqYpu,rq4k1/3np1N1/2p3N1/1p1p2P1/1P4P1/8/pp2K3/7Q b - - 0 32,g8g7 h1h6 g7g8 h6h8 g8f7 h8h7 f7e6 h7e7,2117.0,95.0,4,1.0,True,lichess
+ctvwy,r6r/ppp3pp/2n1Nnk1/4p3/8/1QPq4/PP1N1bPP/R1B2K1R w - - 2 14,f1f2 f6g4 f2e1 d3e3 e1d1 g4f2 d1c2 e3d3,1565.0,94.0,4,0.8029513888888888,True,lichess
+nbbeQ,8/8/knQ4P/3p1N2/3P4/8/2Pq1BP1/1r1N2K1 w - - 7 41,f5d6 b1d1 g1h2 d2f4 f2g3 f4h6 g3h4 h6h4,2407.0,92.0,4,1.0,True,lichess
+4J8Af,6k1/3B3p/p5p1/q4p2/2pp1PPQ/8/P1P1r3/5K2 b - - 0 35,e2c2 d7e6 g8f8 h4f6 f8e8 f6f7 e8d8 f7d7,1589.0,96.0,4,0.8237847222222222,True,lichess
+cVlTY,r4k1r/pb4p1/4p3/1B3p2/1b1pN2q/3P1Q2/P1P2PP1/R1B1RK2 w - - 4 20,e1d1 h4h1 f1e2 h1d1 e2d1 h8h1 d1e2 h1e1,1997.0,87.0,4,1.0,True,lichess
+4Sa5B,1Q3R2/6kp/6pq/3p1p2/7K/8/6PP/8 w - - 6 43,h4g3 h6e3 g3h4 g6g5 h4h5 e3e2 g2g4 e2g4,2228.0,90.0,4,1.0,True,lichess
+ERGaR,8/pp5k/5Qpp/2p5/2q1r2P/2n1PN2/P4PP1/R4RK1 w - - 1 38,f6f8 c3e2 g1h1 e4h4 f3h2 h4h2 h1h2 c4h4,1152.0,91.0,4,0.4444444444444444,True,lichess
+nlUmh,5rk1/p4ppp/8/1q1PQNNn/4P3/8/PP6/6K1 b - - 1 34,b5e2 f5e7 g8h8 g5f7 f8f7 e5b8 f7f8 b8f8,1667.0,96.0,4,0.8914930555555556,True,lichess
+n8aac,8/2R3k1/1r5p/1p6/2B2P2/6P1/6KP/q7 b - - 1 46,g7f6 c7f7 f6g6 f4f5 g6h5 c4e2 h5g5 h2h4,1395.0,77.0,4,0.6553819444444444,True,lichess
+3Qqt2,1r1R4/4P1k1/b5B1/2R5/8/p6p/P1P2r2/2K5 w - - 2 34,e7e8q b8b1 c1b1 f2f1 e8e1 f1e1 d8d1 e1d1,1717.0,96.0,4,0.9348958333333334,True,lichess
+xMOTp,2r1n3/5kpQ/p2p2pR/3Ppq2/1pr5/4BP2/PPP5/1K4R1 w - - 6 28,h6g6 f5c2 b1a1 c2c1 e3c1 c4c1 g1c1 c8c1,980.0,59.0,4,0.2951388888888889,True,lichess
+4OElV,2k4r/1ppq4/3p4/p2Pn1p1/2Pb4/PP4Pr/5PB1/R2QR1K1 w - - 0 24,d1d4 h3h1 g2h1 h8h1 g1h1 d7h3 h1g1 e5f3,1790.0,100.0,4,0.9982638888888888,True,lichess
+3fv3I,r1b1k2B/ppp2p2/4p3/3p3p/2PP3q/2N1P1p1/PP4P1/R2Q1BK1 w q - 0 16,f1d3 h4h2 g1f1 h2h1 f1e2 h1g2 e2e1 g2f2,1127.0,72.0,4,0.4227430555555556,True,lichess
+d7URQ,2R1Rn2/p4pk1/1b1rpp2/p6p/7P/1P3PP1/P3P3/5K2 b - - 4 38,f8d7 e8g8 g7h7 g8h8 h7g6 c8g8 g6f5 h8h5,1644.0,93.0,4,0.8715277777777778,True,lichess
+dQ1jN,1k2r3/pbp2p2/1p3p1p/5B2/3b4/2N5/PPQ2PPP/6K1 w - - 0 21,h2h3 e8e1 g1h2 d4e5 f2f4 e5f4 g2g3 e1h1,1156.0,95.0,4,0.4479166666666667,True,lichess
+4gTEw,8/4Q1kp/5pb1/2pq2p1/8/5PP1/6KP/8 b - - 1 39,g7h6 e7f8 h6h5 g3g4 h5h4 f8h6 g6h5 h6h5,1185.0,91.0,4,0.4730902777777778,True,lichess
+4ROgN,2r3k1/pp3pp1/6P1/3p4/b7/2p1K1Q1/1P3PP1/q1B4R b - - 1 25,c3b2 h1h8 g8h8 g3h3 h8g8 h3c8 a4e8 c8e8,2045.0,87.0,4,1.0,True,lichess
+wdzMT,6k1/p2n1rpp/1p1p1r2/1Q2p3/2PpPp2/BP3P1q/P3K1RP/6R1 b - - 1 26,d7c5 b5e8 f7f8 g2g7 g8h8 g7g8 f8g8 e8g8,1396.0,99.0,4,0.65625,True,lichess
+3b7wQ,2br2k1/ppq3p1/2pbB1Q1/8/3P4/5r2/PPP5/1K4RR b - - 0 23,c8e6 g6e6 c7f7 g1g7 g8g7 e6h6 g7g8 h6h8,2590.0,91.0,4,1.0,True,lichess
+3MtUi,6rk/ppp1Q1pp/8/5b1q/1P6/5r2/P4P1P/3R2RK b - - 5 25,f3h3 e7g7 g8g7 d1d8 h5e8 d8e8 g7g8 g1g8,1467.0,100.0,4,0.7178819444444444,True,lichess
+nTL45,2r1r1k1/pp6/4b1Qp/3pp3/5P2/5R2/P5PK/4q3 b - - 1 30,g8f8 f4e5 f8e7 f3f7 e7d8 g6f6 e8e7 f6e7,2040.0,92.0,4,1.0,True,lichess
+bkFOE,2k5/1p4p1/P1p1p2p/3pn3/6P1/5q1P/2Q1NBK1/R7 w - - 1 34,g2f1 f3h3 f1e1 e5f3 e1d1 h3f1 f2e1 f1e1,2362.0,94.0,4,1.0,True,lichess
+Dusve,3Q4/p4ppk/2p2P1p/1pPpq3/8/P3r1PP/5RK1/5R2 w - - 0 37,f6g7 e5g3 g2h1 g3h3 h1g1 e3g3 f2g2 h3g2,1387.0,92.0,4,0.6484375,True,lichess
+Dx7ks,r1bq1rk1/pppnb1pB/2n1p3/3pP1p1/3P3P/2P5/PP1N1PP1/R1BQK2R b KQ - 0 10,g8h7 h4g5 h7g8 h1h8 g8h8 d1h5 h8g8 g5g6 d7f6 e5f6 f8f6 h5h7 g8f8 h7h8,2419.0,29.0,5,1.0,True,lichess
+zYbJS,r1bqk2r/pp1n1pp1/2p5/2Pp3p/1P1Pp1P1/2N1P3/P2NB1Pb/R1BQ1RK1 w kq - 0 13,g1h2 h5g4 h2g1 h8h1 g1h1 d8h4 h1g1 g4g3 d2f3 e4f3 f1f3 h4h2 g1f1 h2h1,2491.0,92.0,5,1.0,True,lichess
+SkwEB,r1bq1r2/pp1nb1pk/2n1p3/3pP1P1/3P4/2N5/PP3PP1/R1BQK2R b KQ - 0 13,h7g8 h1h8 g8h8 d1h5 h8g8 g5g6 d7f6 e5f6 f8f6 h5h7 g8f8 h7h8,2221.0,93.0,5,1.0,True,lichess
+RGTMs,rn5k/ppp2Qp1/3b3p/8/3Pp2q/2P1R2b/PP1N1Pp1/R1B3K1 w - - 0 19,e3e4 d6h2 g1h2 g2g1q h2g1 h4g5 e4g4 g5g4 g1h2 g4g2,2475.0,87.0,5,1.0,True,lichess
+zESbc,2b4r/5Rk1/2p1p3/8/p6p/4q1P1/2B3KP/5R2 b - - 3 35,g7h6 f1f6 h6h5 g3g4 h5g4 f7g7 g4h5 c2d1 e3e2 d1e2,2252.0,90.0,5,1.0,True,lichess
+hBlDZ,2r5/pQ4p1/1p1Rb1k1/2p2p2/5B1p/Pq4P1/1P3PBP/6K1 w - - 0 29,g2d5 b3d1 g1g2 h4h3 g2h3 d1f1 d5g2 c8h8 f4h6 h8h6,1764.0,96.0,5,0.9756944444444444,True,lichess
+zKJm3,1rb4k/5Np1/p3p1Q1/3p3P/2pP2Pq/2N1P3/Pr3nK1/1R3R2 b - - 2 29,h8g8 f7h6 g8h8 g6e8 h8h7 e8g8 h7h6 g8h8 h6g5 h8g7,1948.0,95.0,5,1.0,True,lichess
+RmXqC,8/4bkp1/p3pp2/1p2p1pQ/3q2P1/1Pn2r2/PKP5/2R5 b - - 7 38,f7g8 h5e8 e7f8 e8e6 g8h7 c1h1 f3h3 h1h3 h7g6 e6e8,1740.0,96.0,5,0.9548611111111112,True,lichess
+Yq7bU,r4rk1/pp3ppp/2n1pP2/3p4/8/3Q4/PqPN3P/4RR1K b - - 0 19,g7f6 f1g1 g8h8 d3h7 h8h7 e1e3 b2d4 e3h3 d4h4 h3h4,2274.0,85.0,5,1.0,True,lichess
+gKYFY,1k6/p4p1p/QP1p2p1/1Pp4q/8/5PP1/2PB1K1r/1R3R2 w - - 3 29,f2e1 h5e5 e1d1 e5e2 d1c1 e2d2 c1b2 d2c2 b2a1 c2c3 b1b2 c3b2,1623.0,95.0,5,0.8532986111111112,True,lichess
+LWfLQ,r1b5/pp1nq1k1/3Np3/3nPBr1/3b3Q/P4R2/1P4PP/R6K b - - 1 26,d4e5 h4h7 g7f8 f5e6 d5f4 f3f4 e5f4 h7h8 g5g8 h8g8,2378.0,92.0,5,1.0,True,lichess
+YSpNa,2k4r/pp3pp1/2n2n2/2q5/3Pp3/1P3Np1/PBP1BPP1/R2Q1R1K w - - 1 18,h1g1 h8h1 g1h1 c5h5 h1g1 e4f3 f2g3 f6g4 f1f3 h5h2 g1f1 h2h1,2546.0,90.0,5,1.0,True,lichess
+Muuhe,3Q4/p2p1pkp/b3p1pP/1q2P3/3p4/KP3P2/P1r5/6R1 b - - 0 31,g7h6 d8f8 h6h5 g1h1 c2h2 h1h2 h5g5 f8h6 g5f5 h2h5 g6h5 h6f6,2363.0,93.0,5,1.0,True,lichess
+TAoKz,r4r2/pb1n2k1/1p4p1/4pp2/2P5/1PNB2Pq/1P1Q1P1P/R3R1K1 w - - 1 21,d3f1 h3h2 g1h2 f8h8 f1h3 h8h3 h2h3 a8h8 d2h6 h8h6,1422.0,96.0,5,0.6788194444444444,True,lichess
+gMNIx,8/pp2P3/2b3k1/2p1Q1B1/2B3p1/4PrPq/P6P/R5K1 w - - 3 37,g5f4 f3g3 g1f2 h3h2 f2e1 g3g1 c4f1 g1f1 e1f1 c6b5 f1e1 h2e2,2375.0,86.0,5,1.0,True,lichess
+fom24,k5rr/B2q2b1/5pp1/2QPp3/8/P2P1nP1/4PK1P/1R3R2 w - - 1 27,c5a5 h8h2 f2f3 d7f5 f3e3 g7h6 f1f4 h6f4 g3f4 f5f4,2116.0,89.0,5,1.0,True,lichess
+DqPGi,4r2k/1R6/p5p1/7p/P1Pb4/3P3Q/1P2nqPP/R6K w - - 0 25,h3d7 e2g3 h2g3 e8e1 a1e1 f2e1 h1h2 e1g1 h2h3 g1h1,1594.0,97.0,5,0.828125,True,lichess
+zckUH,8/8/7P/8/2pkb3/3p4/3Kp3/7R w - - 0 49,h6h7 c4c3 d2e1 d4e3 h1h3 e4f3 h3f3 e3f3 h7h8q d3d2,1975.0,93.0,5,1.0,True,lichess
+La7cH,8/8/p1p5/8/1P6/3kp3/3p4/3K1N2 w - - 0 59,f1d2 e3d2 b4b5 c6c5 b5b6 c5c4 b6b7 c4c3 b7b8q c3c2,2000.0,93.0,5,1.0,True,lichess
+FISjq,1k5r/ppp5/6q1/8/5pP1/3r1P2/PPQ3pK/3R1R2 w - - 0 29,h2g2 g6g4 f3g4 d3g3 g2f2 h8h2 f2e1 g3e3 c2e2 h2e2,2288.0,94.0,5,1.0,True,lichess
+ZHXwQ,5rk1/2R1Qppp/8/1P2q2P/3p2BK/8/8/8 b - - 1 50,e5b5 e7f7 f8f7 c7c8 b5e8 c8e8 f7f8 g4e6 g8h8 e8f8,1739.0,90.0,5,0.9539930555555556,True,lichess
+ZPrGN,2r5/pp2Nk1p/6pb/4pp2/1QPq4/P7/RP1r1PPP/5RK1 w - - 10 31,e7c8 d4f2 f1f2 d2d1 b4e1 d1e1 f2f1 h6e3 g1h1 e1f1,1476.0,80.0,5,0.7256944444444444,True,lichess
+N15zY,5rk1/p2Rqppp/bpB5/8/P7/5QP1/2P2PKP/8 b - - 0 28,e7e1 f3f7 f8f7 d7d8 f7f8 c6d5 e1e6 d5e6 g8h8 d8f8,1625.0,71.0,5,0.8550347222222222,True,lichess
+M8V7M,r7/pp3r2/1kp5/8/1Q1R4/3B4/q1P2PKP/8 b - - 12 36,b6c7 b4d6 c7b6 d4b4 b6a5 d6c5 b7b5 b4b5 c6b5 c5b5,1820.0,93.0,5,1.0,True,lichess
+ym4oP,r5k1/1p2qppp/2p5/1n1P4/1R6/5NB1/4QPPP/r4R1K w - - 1 29,e2e7 a1f1 f3g1 f1g1 h1g1 a8a1 b4b1 a1b1 e7e1 b1e1,1373.0,92.0,5,0.6362847222222222,True,lichess
+ECwiG,7k/p5r1/4PQ2/7p/5ppr/2P2PqP/PP3RP1/5R1K w - - 0 35,f3g4 h4h3 g2h3 g3h3 h1g1 h3g4 g1h2 g4g3 h2h1 g3h3 f2h2 h3f1,1884.0,95.0,5,1.0,True,lichess
+DkhOS,r1b3k1/7p/1pNp1bR1/1P1Pp3/4Q3/pP5q/P1B5/2K5 b - - 0 35,h7g6 e4g6 f6g7 g6e8 g7f8 c6e7 g8g7 e8g6 g7h8 g6g8,2022.0,94.0,5,1.0,True,lichess
+gGNxK,2k5/Qp6/2qp3r/2P1p3/3n4/5Np1/PP2B1P1/1K1R4 w - - 1 32,c5d6 c6e4 e2d3 e4d3 d1d3 h6h1 f3e1 h1e1 d3d1 e1d1,2299.0,92.0,5,1.0,True,lichess
+XWqKk,5rk1/p3r1pp/8/1p4q1/8/3P2P1/P1P1QP1K/4R3 w - - 0 24,e2e7 f8f2 h2h3 g5f5 g3g4 f5f3 h3h4 f2h2 h4g5 h7h6 g5g6 f3g4 e7g5 g4g5,2012.0,89.0,5,1.0,True,lichess
+RoLgf,8/R5Rk/P6p/7K/8/7P/r2p4/4r3 b - - 0 40,h7h8 h5h6 e1e6 g7g6 e6g6 h6g6 a2a6 a7a6 d2d1q a6a8 d1d8 a8d8,2000.0,91.0,5,1.0,True,lichess

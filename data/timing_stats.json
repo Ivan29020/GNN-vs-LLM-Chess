@@ -1,0 +1,9 @@
+{
+  "rating_p_lo": 640.0,
+  "rating_p_hi": 1792.0,
+  "percentiles": [
+    10,
+    90
+  ],
+  "n_train_puzzles": 240000
+}

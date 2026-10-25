@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "held_outs": [
+    {
+      "name": "misto",
+      "file": "puzzles_held_out.parquet",
+      "results": "paired_gnn_vs_llm_balanced300k_v3.csv"
+    },
+    {
+      "name": "lichess-only",
+      "file": "puzzles_held_out_lichess.parquet",
+      "results": "paired_gnn_vs_llm_held_out_lichess_balanced300k_v3.csv"
+    }
+  ],
+  "completed_utc": "2026-10-25T11:10:15Z"
+}

@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "config": {
+    "subset_size": 300000,
+    "data_pipeline_schema_version": 3,
+    "subset_rating_bins": 5,
+    "split_test_size": 0.2,
+    "split_val_of_temp": 0.5,
+    "num_epochs": 100,
+    "early_stopping_patience": 10,
+    "early_stopping_min_delta": 0.001,
+    "hidden_dim": 256,
+    "num_layers": 5,
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "graph_cache_max_items": 200000,
+    "random_seed": 42,
+    "full_seq_eval_size": 5000
+  },
+  "stages": {
+    "timed": {
+      "status": "complete",
+      "updated_utc": "2026-10-20T17:56:59Z",
+      "checkpoint": "timed_gnn_tv2_subset300k_balanced_rating_v3_best.pt"
+    },
+    "data": {
+      "status": "complete",
+      "updated_utc": "2026-10-23T13:42:27Z",
+      "files": [
+        "puzzles_train.parquet",
+        "puzzles_val.parquet",
+        "puzzles_test.parquet",
+        "puzzles_held_out.parquet",
+        "puzzles_held_out_lichess.parquet"
+      ]
+    },
+    "no-timing": {
+      "status": "in_progress",
+      "updated_utc": "2026-10-23T13:42:22Z",
+      "checkpoint": "no_timing_gnn_subset300k_balanced_rating_v3_best.pt"
+    },
+    "compare": {
+      "status": "complete",
+      "updated_utc": "2026-10-25T11:10:15Z",
+      "paired_results_mixed": "paired_gnn_vs_llm_balanced300k_v3.csv",
+      "paired_results_lichess": "paired_gnn_vs_llm_held_out_lichess_balanced300k_v3.csv",
+      "llm_model": "openai/gpt-oss-120b"
+    }
+  }
+}

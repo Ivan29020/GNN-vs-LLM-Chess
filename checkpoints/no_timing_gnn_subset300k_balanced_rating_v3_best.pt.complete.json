@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "include_timing": false,
+  "final_epoch": 55,
+  "best_val_acc": 0.8675933022817051,
+  "subset_size": 300000,
+  "num_epochs": 100,
+  "early_stopping_patience": 10,
+  "early_stopping_min_delta": 0.001,
+  "learning_rate": 0.001,
+  "random_seed": 42,
+  "graph_cache_max_items": 200000,
+  "hidden_dim": 256,
+  "num_layers": 5,
+  "dropout": 0.1,
+  "batch_size": 128,
+  "data_pipeline_schema_version": 3
+}

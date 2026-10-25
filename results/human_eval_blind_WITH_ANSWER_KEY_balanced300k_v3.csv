@@ -1,0 +1,954 @@
+PuzzleId,mate_n,FEN,Modello_A,Modello_B,A_correttezza_1_5,A_concisione_1_5,B_correttezza_1_5,B_concisione_1_5,quale_guida_e_migliore_A_B_pari,_true_label_A
+polgar_0034,1,k1r5/8/P7/8/1Q6/8/8/6K1 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: b4b7 (confidenza 100%)
+Alternative considerate per la prima mossa: b4b7 (100%), b4h4 (0%), b4e7 (0%)
+Tempo di calcolo: 0.54s","The queen can move to b8 delivering check; the black king has no escape squares (a7 is covered by the queen, b7 by the pawn, b8 is occupied by the checking queen) and the rook cannot capture because it is pinned by the pawn’s control of b7. Hence it is checkmate in one.
+
+SOLUTION: b4b8",,,,,,GNN
+polgar_0297,1,8/rn4p1/1k4P1/p2P4/Pp3N2/1K6/2R5/8 w - - 0 1,"The only checking move is to bring the rook to c6, which is defended by the pawn on d5, preventing the king from capturing it, and all escape squares for the black king are covered.
+
+SOLUTION: c2c6","Suggerimento per il matto in 1:
+  mossa 1 del solver: c2c6 (confidenza 95%)
+Alternative considerate per la prima mossa: c2c6 (95%), c2c8 (4%), c2h2 (0%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_0086,1,7R/5p2/6k1/5p2/8/8/8/1KQ5 w - - 0 1,"The queen moves from c1 to c6 delivering a rook‑like horizontal check on the black king on g6; all escape squares (f6, g5, h5, h6) are covered by the queen or rook, and the checking line cannot be blocked, resulting in immediate mate.
+
+SOLUTION: c1c6","Suggerimento per il matto in 1:
+  mossa 1 del solver: c1h6 (confidenza 95%)
+Alternative considerate per la prima mossa: c1h6 (95%), h8h6 (5%), c1c6 (0%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_0078,1,8/3Np2R/4k3/2R2N2/8/8/8/K7 w - - 0 1,"The only checking move that leaves the black king without any legal escape squares is to deliver a direct rook check on the e‑file; all adjacent squares are covered by white pieces or occupied, so Black cannot capture or move away.
+
+SOLUTION: c5e5","Suggerimento per il matto in 1:
+  mossa 1 del solver: h7e7 (confidenza 99%)
+Alternative considerate per la prima mossa: h7e7 (99%), d7f8 (0%), c5e5 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0283,1,1k6/pq6/4Np2/4bP2/2p2B2/P1P3P1/KQ4r1/7R w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: h1h8 (confidenza 94%)
+Alternative considerate per la prima mossa: h1h8 (94%), e6f8 (3%), h1h5 (1%)
+Tempo di calcolo: 0.01s","The white queen can deliver an immediate check that leaves Black with no legal moves to block, capture, or escape, resulting in checkmate in one move.
+
+SOLUTION: b2b8",,,,,,GNN
+polgar_0258,1,1kr4r/p1ppb1pp/1p3q2/P3N3/3P1n2/1P3B2/R1PQ1PPP/4R1K1 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: e5d7 (confidenza 83%)
+Alternative considerate per la prima mossa: e5d7 (83%), e5f7 (16%), a2b2 (0%)
+Tempo di calcolo: 0.02s",SOLUTION: e5d7,,,,,,GNN
+polgar_0295,1,7r/4K3/R7/4k3/4p3/5p2/4N3/8 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: a6e6 (confidenza 29%)
+Alternative considerate per la prima mossa: a6e6 (29%), a6g6 (28%), a6f6 (26%)
+Tempo di calcolo: 0.01s","The only checking move that leaves Black with no legal escape squares or interpositions is a rook move delivering a direct line‑check that cannot be blocked or captured, and all king moves are covered by White’s pieces.
+
+SOLUTION: a6a5",,,,,,GNN
+polgar_0080,1,8/8/8/8/2R5/3k3B/8/2B4K w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: h3e6 (confidenza 66%)
+Alternative considerate per la prima mossa: h3e6 (66%), h3f5 (13%), c1h6 (6%)
+Tempo di calcolo: 0.00s","The white rook can move to d4 delivering a direct check; the black king has no safe squares and cannot capture the rook because all escape squares are controlled by White’s pieces, resulting in immediate mate.
+
+SOLUTION: c4d4",,,,,,GNN
+polgar_0164,1,3q1rrb/2p2pkp/1p2b1p1/p5PP/8/2NB4/PPPQ1P2/2KR2R1 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: h5h6 (confidenza 99%)
+Alternative considerate per la prima mossa: h5h6 (99%), d3a6 (1%), g1h1 (0%)
+Tempo di calcolo: 0.01s","The pawn push h5‑h6 gives a direct check; the black king on g7 has no legal moves, and no black piece can capture or block the pawn’s attack, so it is checkmate.
+
+SOLUTION: h5h6",,,,,,GNN
+polgar_0246,1,4r3/p2nr1pp/1p1k1p2/n4P2/1KPP4/2N1P1P1/P5BP/1R2R3 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: c3b5 (confidenza 51%)
+Alternative considerate per la prima mossa: c3b5 (51%), g2d5 (33%), d4d5 (12%)
+Tempo di calcolo: 0.01s","Ne4# 
+
+SOLUTION: c3e4",,,,,,GNN
+polgar_0059,1,8/8/6k1/6B1/8/6N1/Q7/7K w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: a2a8 (confidenza 48%)
+Alternative considerate per la prima mossa: a2a8 (48%), a2g8 (45%), a2h2 (3%)
+Tempo di calcolo: 0.01s","The queen can move from a2 to g8 delivering check; it covers all escape squares (f5, f6, f7, g5, h5, h6, h7, g7) with the bishop, knight and queen, leaving the black king with no legal moves, thus it's checkmate.
+
+SOLUTION: a2g8",,,,,,GNN
+polgar_0134,1,5K1k/7p/8/8/8/8/7B/8 w - - 0 1,"The bishop on b2 can move along the diagonal to h8, capturing the black king. This gives check; the black king has no escape squares (g8 is controlled by the white king, g7 by the bishop, and h7 is occupied by its own pawn), and there is no piece that can block or capture the checking bishop. Hence it is mate in one.
+
+SOLUTION: b2h8","Suggerimento per il matto in 1:
+  mossa 1 del solver: h2d6 (confidenza 56%)
+Alternative considerate per la prima mossa: h2d6 (56%), h2e5 (23%), h2c7 (7%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+polgar_0073,1,2K5/k1N5/8/8/8/8/8/B7 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: a1f6 (confidenza 68%)
+Alternative considerate per la prima mossa: a1f6 (68%), a1e5 (11%), a1h8 (5%)
+Tempo di calcolo: 0.01s","The bishop can move from a1 to d4, delivering a direct line check to the black king on a7; this diagonal also covers the escape square b6, while the white knight and king already control a6, a8, b7 and b8, leaving the black king with no legal moves. Hence it is checkmate in one.
+
+SOLUTION: a1d4",,,,,,GNN
+polgar_0109,1,K7/8/8/5N2/4p3/4N3/5k2/Q7 w - - 0 1,"The queen can move from a1 to f1 delivering check; the queen is protected by the knight on e3, so Black cannot capture it, and all escape squares for the black king are controlled by White’s pieces, resulting in immediate mate.
+
+SOLUTION: a1f1","Suggerimento per il matto in 1:
+  mossa 1 del solver: a1f1 (confidenza 99%)
+Alternative considerate per la prima mossa: a1f1 (99%), a1h8 (1%), a1e1 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0252,1,6R1/ppkb3p/2pb4/5p1q/8/1PN3P1/P1Q2PKP/4r3 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: g8h8 (confidenza 71%)
+Alternative considerate per la prima mossa: g8h8 (71%), c3b5 (10%), c3d5 (9%)
+Tempo di calcolo: 0.00s","The white queen can move to c8 delivering check; the black king has no legal escape squares and all possible interpositions are either occupied or illegal, so it is checkmate.
+
+SOLUTION: c2c8",,,,,,GNN
+polgar_0210,1,5qk1/6np/8/5nN1/8/7Q/7P/7K w - - 0 1,"The queen can capture the pawn on h7 delivering a direct diagonal check to the black king, and the king cannot capture because the checking queen is protected by the white knight; no other black piece can interpose or capture the queen, so it is checkmate.
+
+SOLUTION: h3h7","Suggerimento per il matto in 1:
+  mossa 1 del solver: h3h7 (confidenza 100%)
+Alternative considerate per la prima mossa: h3h7 (100%), g5h7 (0%), g5e4 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0033,1,3bk3/R3p3/3P4/8/8/8/8/4KR2 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: a7a8 (confidenza 76%)
+Alternative considerate per la prima mossa: a7a8 (76%), f1h1 (14%), d6d7 (8%)
+Tempo di calcolo: 0.00s","The rook can capture the pawn on e7 delivering check; the pawn on d6 protects the rook, the bishop on d8 blocks the king’s escape squares, and the king cannot capture the checking rook or move elsewhere, so it is checkmate in one.
+
+SOLUTION: a7e7",,,,,,GNN
+polgar_0300,1,r2q1k1r/pp2b1pp/3p1n2/4p1N1/4P1b1/PQN1B3/1P3PPP/3RR1K1 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: b3f7 (confidenza 100%)
+Alternative considerate per la prima mossa: b3f7 (100%), e3c5 (0%), b3b7 (0%)
+Tempo di calcolo: 0.01s",SOLUTION: c3f6,,,,,,GNN
+polgar_0068,1,7k/1K5B/8/8/8/8/1R6/B7 w - - 0 1,"The rook on b2 blocks the a1–h8 diagonal; moving it away (e.g., to b1) opens a discovered check from the bishop on a1. Black’s king on h8 cannot escape to g8 (covered by the bishop on h7) or g7 (covered by the bishop on a1), cannot capture any attacker, and has no interposing pieces, so it is checkmated.
+
+SOLUTION: b2b1","Suggerimento per il matto in 1:
+  mossa 1 del solver: b2h2 (confidenza 78%)
+Alternative considerate per la prima mossa: b2h2 (78%), b2g2 (13%), b2b6 (4%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_0049,1,8/5P2/5k2/5B2/5K2/8/8/8 w - - 0 1,"The pawn on f7 can promote with check; the new queen on f8 attacks the black king on f6 along the file, and all escape squares are covered by the white king and bishop, leaving no defence.
+
+SOLUTION: f7f8q","Suggerimento per il matto in 1:
+  mossa 1 del solver: f7f8q (confidenza 25%)
+Alternative considerate per la prima mossa: f7f8b (25%), f7f8r (25%), f7f8q (25%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_0174,1,3r1rk1/ppq2p2/5Bp1/4p2p/4Q3/1BN5/PPP2PPP/6K1 w - - 0 1,"The queen can capture the pawn on g6 delivering check along the g‑file; the king cannot move to any safe square, and no black piece can block or capture the checking queen, so it is checkmate.
+
+SOLUTION: e4g6","Suggerimento per il matto in 1:
+  mossa 1 del solver: e4g6 (confidenza 60%)
+Alternative considerate per la prima mossa: e4g6 (60%), e4h4 (37%), c3b5 (2%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_0200,1,6k1/6pn/6N1/8/8/5BP1/6KP/8 w - - 0 1,"The bishop on f3 can move to d5, opening a diagonal to g8. This gives a direct line check that cannot be blocked (e6 and f7 are unavailable), cannot be captured, and the king cannot move to h8, f8, or f7 because those squares are controlled by the knight on g6 or the checking bishop. Hence it is checkmate.
+
+SOLUTION: f3d5","Suggerimento per il matto in 1:
+  mossa 1 del solver: g6e7 (confidenza 70%)
+Alternative considerate per la prima mossa: g6e7 (70%), f3d5 (9%), f3c6 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0076,1,7k/8/5N2/8/8/8/8/6RK w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: g1g8 (confidenza 100%)
+Alternative considerate per la prima mossa: g1g8 (100%), f6d7 (0%), g1a1 (0%)
+Tempo di calcolo: 0.00s","The rook on g1 can deliver check along the open g‑file; moving to g8 gives check and is protected by the knight on f6, while all escape squares for the black king are covered, resulting in immediate mate.
+
+SOLUTION: g1g8",,,,,,GNN
+polgar_0072,1,3BB3/5N1K/8/7k/8/8/8/8 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: d8g5 (confidenza 98%)
+Alternative considerate per la prima mossa: d8g5 (98%), e8d7 (1%), e8c6 (0%)
+Tempo di calcolo: 0.00s",SOLUTION: f7h6,,,,,,GNN
+polgar_0267,1,r4rk1/6bn/3p2Np/5Np1/6P1/8/PP5P/2KR1R2 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: f5e7 (confidenza 83%)
+Alternative considerate per la prima mossa: f5e7 (83%), f5d6 (11%), g6e7 (7%)
+Tempo di calcolo: 0.00s","The knight on g6 can jump to e7 delivering a direct knight check on the black king on g8. The king has no legal moves (h8 is covered by the same knight, f8 is occupied by a rook, and h7 is occupied), and no black piece can capture the checking knight or interpose, so it is checkmate.
+
+SOLUTION: g6e7",,,,,,GNN
+polgar_0045,1,8/8/8/7R/3k4/1KR5/5P2/6B1 w - - 0 1,"The rook on h5 can slide down to h4 delivering a direct check; the black king on d4 cannot capture the rook or move to any safe square because all its escape squares are controlled by the bishop on g1, the rook on h4, or are occupied. Hence Rh4# is forced.
+
+SOLUTION: h5h4","Suggerimento per il matto in 1:
+  mossa 1 del solver: h5h8 (confidenza 74%)
+Alternative considerate per la prima mossa: h5h8 (74%), g1h2 (5%), h5g5 (4%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0019,1,rnb4k/p5pp/8/4N3/8/1B6/PPP5/2K4R w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: e5g6 (confidenza 91%)
+Alternative considerate per la prima mossa: e5g6 (91%), e5f7 (9%), b3f7 (0%)
+Tempo di calcolo: 0.00s","The knight on e5 can jump to f7, giving a direct knight check to the black king on h8. All escape squares for the king are covered or blocked, so this is checkmate.
+
+SOLUTION: e5f7",,,,,,GNN
+polgar_0232,1,r2q2kn/ppp2R1R/2np2p1/7p/2P4P/1PN3P1/P1BB1P2/6K1 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: f7g7 (confidenza 96%)
+Alternative considerate per la prima mossa: f7g7 (96%), h7g7 (3%), c2g6 (0%)
+Tempo di calcolo: 0.00s",SOLUTION: f7g7,,,,,,GNN
+polgar_0128,1,3rkr2/7Q/4K3/8/8/8/8/8 w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: h7e7 (confidenza 100%)
+Alternative considerate per la prima mossa: h7e7 (100%), h7e4 (0%), h7g6 (0%)
+Tempo di calcolo: 0.00s","Qh8# is checkmate: the queen on h8 attacks the black king on e8 along the 8th rank, and every escape square for the king is either occupied, off‑board or controlled by White’s queen or king, while Black’s rook cannot interpose or capture the queen.
+
+SOLUTION: h7h8",,,,,,GNN
+polgar_0082,1,8/8/8/8/2R5/3kb2B/3p4/7K w - - 0 1,"Suggerimento per il matto in 1:
+  mossa 1 del solver: h3e6 (confidenza 76%)
+Alternative considerate per la prima mossa: h3e6 (76%), h3f5 (17%), h3f1 (4%)
+Tempo di calcolo: 0.00s","The bishop on h3 can move to f1, giving a direct check to the black king on d3. The rook on c4 covers the escape squares c2, c3 and e4, while the bishop on f1 controls e2, leaving the king with no legal moves and no captures possible, resulting in immediate mate.
+
+SOLUTION: h3f1",,,,,,GNN
+polgar_0464,2,r2n1r1Q/1p2qk2/3p2p1/p2P4/Pn1BB1P1/8/5P1P/5K2 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: h8h7 (confidenza 91%)
+Alternative considerate per la prima mossa: h8h7 (91%), h8g7 (7%), d4b6 (1%)
+Tempo di calcolo: 0.00s","The key is the forcing queen sacrifice on f8; Black’s only legal reply is to recapture with the rook, after which the bishop on d3 jumps to c6 delivering an unavoidable mate.
+
+SOLUTION: h8f8 f8f8 d3c6",,,,,,GNN
+polgar_3688,2,7b/3p4/1p1R4/2p2N1R/1rp1k1P1/1P2PnQp/4qPn1/3b3K w - - 0 1,"The queen on g3 can capture the defending knight on g2 delivering a direct check along the diagonal g2‑f3‑e4; the black king has no escape squares and no piece can interpose or capture the queen, so it is checkmate.
+
+SOLUTION: g3g2","Suggerimento per il matto in 2:
+  mossa 1 del solver: h5h8 (confidenza 97%)
+Alternative considerate per la prima mossa: h5h8 (97%), d6h6 (1%), h5h6 (1%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_1133,2,1r4rb/5pkn/8/4q1PP/8/p2Q4/PP6/1K3R2 w - - 0 1,"The queen can move to g6 delivering check; the king cannot capture because it is protected by the pawn on h5, and no black piece can interpose or block on g6, so it is immediate mate.
+
+SOLUTION: d3g6","Suggerimento per il matto in 2:
+  mossa 1 del solver: h5h6 (confidenza 46%)
+Alternative considerate per la prima mossa: h5h6 (46%), d3h3 (30%), d3g6 (10%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0835,2,N1R4K/r7/3p1P2/p2k2pQ/r1p1R3/4qP2/3bn1n1/8 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: h5g6 (confidenza 60%)
+Alternative considerate per la prima mossa: h5g6 (60%), h5h6 (21%), c8f8 (5%)
+Tempo di calcolo: 0.00s","The key is the queen sacrifice on g5 delivering a direct check; Black’s only legal reply is to capture the queen with the queen, after which White’s rook comes to e5 delivering a forced mate.
+
+SOLUTION: h5g5 e3g5 e4e5",,,,,,GNN
+polgar_3682,2,1q6/2p1b3/2Rp2p1/K1N1N3/p2k2P1/2pP1n2/B2Qrrn1/2B5 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: e5f7 (confidenza 45%)
+Alternative considerate per la prima mossa: e5f7 (45%), e5d7 (19%), c6a6 (5%)
+Tempo di calcolo: 0.00s",,,,,,,GNN
+polgar_3435,2,8/1K1k1P2/8/8/4R3/1N6/8/8 w - - 0 1,,"Suggerimento per il matto in 2:
+  mossa 1 del solver: f7f8q (confidenza 20%)
+Alternative considerate per la prima mossa: f7f8b (20%), f7f8r (20%), f7f8q (20%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3687,2,7q/2pn2p1/7p/5b2/p7/PB2Qp2/pp1KPP2/bk6 w - - 0 1,"The only checking move is Bxa2+, forcing the Black king to capture on a2; after Kxa2 White can deliver mate with the queen moving to e8, which now checks the king on a2 with no escape.
+
+SOLUTION: b3a2 b1a2 e3e8","Suggerimento per il matto in 2:
+  mossa 1 del solver: e3e7 (confidenza 52%)
+Alternative considerate per la prima mossa: e3e7 (52%), e3a7 (23%), e3d4 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_1051,2,n2N4/k7/p7/n1P4P/3K4/8/1R6/2q5 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: d8f7 (confidenza 42%)
+Alternative considerate per la prima mossa: d8f7 (42%), b2h2 (38%), d8e6 (15%)
+Tempo di calcolo: 0.00s","The rook can force a check on the black king by sliding to b7; the only way to meet the check is  …Nxb7.  After that the white knight jumps to c6 delivering a decisive knight‑check that cannot be parried.
+
+SOLUTION: b2b7 a5b7 d8c6",,,,,,GNN
+polgar_1362,2,8/2r3p1/1k3p2/1p1PpP2/pK2P3/P1R4r/1PR5/8 b - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: h3h1 (confidenza 94%)
+Alternative considerate per la prima mossa: h3h1 (94%), c7c4 (6%), c7a7 (0%)
+Tempo di calcolo: 0.00s","The move Rc4+ checks the white king and leaves it with only one legal square, Ka5. After Ka5 the rook on h3 can slide to h5 delivering a direct mate.
+
+SOLUTION: c7c4 Ka5 h3h5",,,,,,GNN
+polgar_2437,2,R7/7B/8/8/8/1N6/1p1p4/3k1K2 w - - 0 1,"The key is to force the black king onto a square where every escape is covered and the only possible interposition is a pawn promotion that still leaves the king mated.  
+
+SOLUTION: a8a1 b2b1q a8a8","Suggerimento per il matto in 2:
+  mossa 1 del solver: h7g6 (confidenza 39%)
+Alternative considerate per la prima mossa: h7g6 (39%), h7f5 (16%), a8h8 (15%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0547,2,8/6r1/4B3/n1p1p1rb/2p1kbpR/1pR1P3/4NPP1/1K6 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: e2g3 (confidenza 75%)
+  mossa 2 del solver: h4h5 (confidenza 85%)
+Alternative considerate per la prima mossa: e2g3 (75%), h4h5 (12%), e6c8 (4%)
+Tempo di calcolo: 0.01s","The key is the bishop sacrifice on d5 delivering a double‑check. Black’s king has only two legal replies; both are forced into a mating net with the rook on c3 protected by the knight.
+
+SOLUTION: e6d5 e4d3 c3c3",,,,,,GNN
+polgar_1283,2,k1r5/pp6/b7/Q2P4/4qppP/2P5/PP2rPPB/R2R2K1 b - - 0 1,"The queen can deliver a direct check on g2 that cannot be blocked; the only legal reply is Bxg2, after which the rook on e2 slides to e1 delivering unstoppable mate.
+
+SOLUTION: e4g2 h1g2 e2e1","Suggerimento per il matto in 2:
+  mossa 1 del solver: e2e1 (confidenza 96%)
+Alternative considerate per la prima mossa: e2e1 (96%), c8h8 (3%), c8g8 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0782,2,3r1r2/pp2Qp2/7p/4PPpk/R6p/1P3N2/P3q1PP/6K1 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: g2g4 (confidenza 56%)
+Alternative considerate per la prima mossa: g2g4 (56%), a4h4 (43%), e7f6 (0%)
+Tempo di calcolo: 0.00s","The key is a forcing queen sacrifice on g7 that forces the black queen to capture, after which the white queen delivers a back‑rank mate that the black rooks cannot stop.
+
+SOLUTION: e7g7 e2g7 a4g4",,,,,,GNN
+polgar_1269,2,1k2r3/pp4pq/7p/3p4/3P4/1QP1R3/PP1N1PPp/4RK2 b - - 0 1,"The queen can force the white king onto g2 with a checking capture; once the king is on g2 the only way to stop the looming rook infiltration is to block, but Black’s rook then slides to e2 delivering unavoidable mate.
+
+SOLUTION: g7g2 g1f2 e8e2","Suggerimento per il matto in 2:
+  mossa 1 del solver: h2h1q (confidenza 25%)
+Alternative considerate per la prima mossa: h2h1b (25%), h2h1r (25%), h2h1q (25%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_3179,2,8/8/8/2K5/8/2kp4/Q2p4/b2R4 w - - 0 1,"The queen can move from a2 to c4 delivering check; every escape square for the black king on c3 is covered by the white king, queen or rook, and the king cannot capture the queen because it is defended by the white king. Hence the move is an immediate checkmate.
+
+SOLUTION: a2c4","Suggerimento per il matto in 2:
+  mossa 1 del solver: a2c4 (confidenza 75%)
+Alternative considerate per la prima mossa: a2c4 (75%), a2d2 (19%), d1d2 (2%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_2379,2,1R2B3/8/8/8/2kP4/2N2K2/8/Q7 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: b8b5 (confidenza 74%)
+Alternative considerate per la prima mossa: b8b5 (74%), a1h1 (5%), a1a4 (5%)
+Tempo di calcolo: 0.00s",SOLUTION: a1a4 c4c5 a4c6,,,,,,GNN
+polgar_0346,2,8/8/1Q6/4k3/7K/3PN3/4P3/8 w - - 0 1,SOLUTION: b6b5,"Suggerimento per il matto in 2:
+  mossa 1 del solver: b6d8 (confidenza 43%)
+Alternative considerate per la prima mossa: b6d8 (43%), d3d4 (38%), b6b8 (9%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3695,2,b2Nn3/n5pp/4Q3/2ppbP2/3p1kPp/3Pp3/3qB2P/5K2 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: e6e8 (confidenza 95%)
+Alternative considerate per la prima mossa: e6e8 (95%), d8f7 (4%), e6f7 (0%)
+Tempo di calcolo: 0.00s",SOLUTION: e6e5 f4e5 e5f5,,,,,,GNN
+polgar_0637,2,8/3p1K1p/Q7/2PR4/2brk3/4p1B1/4P3/7q w - - 0 1,"The rook on d5 can capture e5 delivering a direct check; the king on e4 cannot move to any safe square, cannot capture the rook because it is protected by the bishop on g3, and no black piece can interpose or capture the checking rook. Hence the move is an immediate forced checkmate.
+
+SOLUTION: d5e5","Suggerimento per il matto in 2:
+  mossa 1 del solver: a6c8 (confidenza 67%)
+Alternative considerate per la prima mossa: a6c8 (67%), a6a8 (33%), a6f6 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0514,2,4B2r/8/8/3K2p1/5kP1/R5pP/5r2/4N3 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: a3a8 (confidenza 85%)
+Alternative considerate per la prima mossa: a3a8 (85%), e8g6 (4%), e8c6 (2%)
+Tempo di calcolo: 0.00s",SOLUTION: a3a4 e3e3 a3a3,,,,,,GNN
+polgar_1566,2,8/1KP3N1/3k4/7R/1PP5/8/8/8 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: c4c5 (confidenza 73%)
+Alternative considerate per la prima mossa: c4c5 (73%), h5c5 (5%), h5h8 (3%)
+Tempo di calcolo: 0.00s","The rook can give a forcing check that drives the black king onto a square where a second rook move delivers mate, and any other king move is similarly refuted.
+
+SOLUTION: h5h6 c5c5 c6c6",,,,,,GNN
+polgar_2101,2,R7/8/N1k1B3/K4N2/8/8/8/8 w - - 0 1,"The rook check on the c‑file forces the black king to a limited set of squares, and from each of those squares White can deliver an immediate rook mate on the b‑file.
+
+SOLUTION: a8c8 kb5 c8b8","Suggerimento per il matto in 2:
+  mossa 1 del solver: f5e7 (confidenza 55%)
+Alternative considerate per la prima mossa: f5e7 (55%), f5h6 (12%), f5g7 (8%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0791,2,5rk1/RR4pp/6r1/7q/1Q5P/6P1/7K/8 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: b4f8 (confidenza 57%)
+  mossa 2 del solver: b7b8 (confidenza 50%)
+Alternative considerate per la prima mossa: b4f8 (57%), b7g7 (43%), b4c4 (0%)
+Tempo di calcolo: 0.01s",,,,,,,GNN
+polgar_0749,2,1bk5/1R6/1K6/3R4/4r3/8/5r2/8 w - - 0 1,"The only checking move is 1.Rd5‑d8+, and Black’s king is forced to capture on d8; any other reply leaves the king in check. After 1…Kc8‑d8 White mates with 2.Rb7‑b8#, as the rook on b8 controls the entire eighth rank and the king has no escape squares.
+
+SOLUTION: d5d8 c8d8 b7b8","Suggerimento per il matto in 2:
+  mossa 1 del solver: d5h5 (confidenza 50%)
+Alternative considerate per la prima mossa: d5h5 (50%), d5g5 (36%), d5a5 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3667,2,3q1BK1/6pQ/p7/r3k2p/3N1R1r/2p2pn1/2N5/8 w - - 0 1,"The key is a forcing queen sacrifice that gives a double‑check, leaving the black king with only one legal move, after which a knight jump delivers the mate.
+
+SOLUTION: h7g7 e5d5 d4f5","Suggerimento per il matto in 2:
+  mossa 1 del solver: h7g7 (confidenza 29%)
+Alternative considerate per la prima mossa: h7g7 (29%), h7h8 (20%), h7g6 (15%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0512,2,4NQ2/1p5r/8/1P1k2q1/N2bRp2/2p1n3/2P3PP/6K1 w - - 0 1,"The key move delivers a check that leaves Black with only one legal reply; after that reply White’s forced continuation gives a second check that cannot be parried, because all escape squares are covered and no piece can interpose or capture the checking piece.
+
+SOLUTION: f8f5 g5f5 e8f6","Suggerimento per il matto in 2:
+  mossa 1 del solver: f8d6 (confidenza 90%)
+Alternative considerate per la prima mossa: f8d6 (90%), a4b6 (9%), f8c5 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_0315,2,8/8/8/6N1/8/4K3/7k/5Q2 w - - 0 1,SOLUTION: g5f3,"Suggerimento per il matto in 2:
+  mossa 1 del solver: f1h3 (confidenza 92%)
+  mossa 2 del solver: h3c8 (confidenza 58%)
+Alternative considerate per la prima mossa: f1h3 (92%), f1f6 (3%), f1f8 (2%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_2428,2,8/8/1K6/3kN3/4N1Q1/2Pb4/8/8 w - - 0 1,"Suggerimento per il matto in 2:
+  mossa 1 del solver: g4g5 (confidenza 29%)
+Alternative considerate per la prima mossa: g4g5 (29%), e5d3 (19%), g4g6 (12%)
+Tempo di calcolo: 0.00s","The queen sac on g5 gives check that the king cannot capture because it is defended by the knight on e4; the king’s only legal replies are to step to d4 or e6, and in each case White has an immediate forced mate.
+
+SOLUTION: g4g5 d5d4 g5e5",,,,,,GNN
+polgar_1270,2,6k1/1pp3p1/4NpPp/3P4/7Q/2rn2N1/P4Pq1/RK3R2 b - - 0 1,"The black queen can force a forced checkmate by delivering a discovered check with the rook on c3, and White has no way to block or capture the decisive mating threat.
+
+SOLUTION: g2g1 c3c1 g1c1","Suggerimento per il matto in 2:
+  mossa 1 del solver: g2f1 (confidenza 55%)
+  mossa 2 del solver: c3c1 (confidenza 100%)
+Alternative considerate per la prima mossa: g2f1 (55%), c3c1 (28%), g2f3 (7%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_1075,2,rnbq1r2/pppp2k1/1b3N2/4N1pQ/2BP4/6p1/PPP4P/R4K1R w - - 0 1,"The queen can deliver an immediate check on g6; this square is defended by the knight on e5, so the black king cannot capture. All escape squares for the king are covered by white pieces, and black has no interposing move, resulting in checkmate.
+
+SOLUTION: h5g6","Suggerimento per il matto in 2:
+  mossa 1 del solver: h5g6 (confidenza 85%)
+Alternative considerate per la prima mossa: h5g6 (85%), h5h7 (14%), h5g5 (1%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_3788,3,8/8/1B2p3/1N6/8/2Nn4/3n2K1/4k3 w - - 0 1,"The key is to force Black’s king onto the only available square and then deliver a back‑rank mate; White’s first quiet move eliminates a defender, Black is forced to move the king, and the bishop finishes the job on the third ply.
+
+SOLUTION: c6a8 e1d1 a8d5","Suggerimento per il matto in 3:
+  mossa 1 del solver: b5d6 (confidenza 69%)
+Alternative considerate per la prima mossa: b5d6 (69%), b5a7 (17%), b5c7 (9%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_4421,3,1r3k1r/p1p3p1/3q1n2/2b3p1/4p1b1/1B1P2P1/PPPQ1P1P/RNB2RK1 b - - 0 1,"The key is the forcing queen sacrifice on g3; White’s only legal reply is hxg3, after which Black’s bishop jumps to f2 with check, and the only move to stay in the line allows the queen to deliver the final mate.
+
+SOLUTION: d6g3 hxg3 c5f2 Kg2 g3g2","Suggerimento per il matto in 3:
+  mossa 1 del solver: d6g3 (confidenza 100%)
+  mossa 2 del solver: h8h1 (confidenza 84%)
+Alternative considerate per la prima mossa: d6g3 (100%), g4f3 (0%), d6a6 (0%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_4075,3,8/p7/K7/p3p2p/NkN1p2P/8/PP4P1/8 w - - 0 1,SOLUTION: a5b5 b4b3 a4c5,"Suggerimento per il matto in 3:
+  mossa 1 del solver: a2a3 (confidenza 76%)
+Alternative considerate per la prima mossa: a2a3 (76%), c4e5 (8%), c4e3 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3979,3,2B1N1K1/1n6/5pkp/6pr/6P1/8/8/5r2 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: c8f5 (confidenza 67%)
+  mossa 2 del solver: g4h5 (confidenza 94%)
+Alternative considerate per la prima mossa: c8f5 (67%), g4h5 (30%), c8e6 (1%)
+Tempo di calcolo: 0.01s","The bishop on c8 can move to f5 delivering a direct diagonal check on the black king g6. All escape squares for the king are either occupied by his own pieces or are controlled by white (the pawn g4 protects f5, the knight e8 and king g8 cover the adjacent squares). Capturing on f5 is illegal because the pawn on g4 would then give check, so the move is checkmate.
+
+SOLUTION: c8f5",,,,,,GNN
+polgar_4333,3,R4Q2/p2r2pk/1p4qp/8/2P5/1P5b/P4PPP/5BK1 b - - 0 1,"The queen can capture on g2 delivering a direct check; the white king has no legal moves, cannot capture the queen because it is protected by the bishop on h3, and no piece can block or capture the checking queen, resulting in immediate mate.
+
+SOLUTION: g6g2","Suggerimento per il matto in 3:
+  mossa 1 del solver: g6g2 (confidenza 36%)
+  mossa 2 del solver: d7d1 (confidenza 99%)
+  mossa 3 del solver: d1f1 (confidenza 100%)
+Alternative considerate per la prima mossa: g6g2 (36%), g6b1 (31%), d7d1 (26%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_4313,3,rn1k3r/pp4Qp/2p1p3/4P3/Pbpqn3/2N5/1P4PP/R1B1KB1R b KQ - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: d4f2 (confidenza 95%)
+Alternative considerate per la prima mossa: d4f2 (95%), b4c3 (4%), b4c5 (0%)
+Tempo di calcolo: 0.01s","The key is the queen sac on e2 forcing the king onto d1, after which the queen slides to d1 delivering unavoidable mate.
+
+SOLUTION: e4e2 d1c2 e2d1",,,,,,GNN
+polgar_4381,3,1Q3br1/7p/5k2/1b2pp2/4p3/2Pq4/PP3PPP/4R1KR b - - 0 1,"The key is to force the white rook to capture on f1, after which the bishop on b5 can deliver a back‑rank mate that the white king cannot escape. Black’s first move threatens the queen sac on f1, and White’s only defence is Rxf1, after which …Bxf1# is unavoidable.
+
+SOLUTION: d3f1 e1f1 b5f1","Suggerimento per il matto in 3:
+  mossa 1 del solver: f8c5 (confidenza 41%)
+Alternative considerate per la prima mossa: f8c5 (41%), g8g2 (39%), g8h8 (6%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_4014,3,6R1/5p1p/6p1/6Pk/2p2P2/2q3PK/8/8 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: g8a8 (confidenza 25%)
+Alternative considerate per la prima mossa: g8a8 (25%), g8d8 (19%), g8e8 (17%)
+Tempo di calcolo: 0.00s",SOLUTION: h3h4 h5h6 g8g6,,,,,,GNN
+polgar_4109,3,r4rk1/6p1/3Ppp2/pp1qN1QP/2pPR3/8/PPP2P2/1K5R w - - 0 1,"The key is a queen sacrifice that forces the black king onto g7, after which the only defensive move leaves the back‑rank completely exposed and White’s rook delivers an unavoidable mate.
+
+SOLUTION: g5g7 g8g7 e4d8","Suggerimento per il matto in 3:
+  mossa 1 del solver: g5g6 (confidenza 64%)
+Alternative considerate per la prima mossa: g5g6 (64%), e5g6 (22%), e5d7 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_4260,3,2nr2k1/p4R1p/b5p1/2PP4/2nB2P1/1B3P2/PPQ3KP/4q2N b - - 0 1,"The key is the queen forcing the white king onto the only square where Black’s queen can deliver a back‑rank mate. After the queen check the king’s options are limited, and Black’s second queen move gives an unavoidable checkmate.
+
+SOLUTION: e1e2 g1g2 e2e1","Suggerimento per il matto in 3:
+  mossa 1 del solver: d8d5 (confidenza 28%)
+Alternative considerate per la prima mossa: d8d5 (28%), e1h4 (26%), c4d2 (15%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3869,3,2rn1k1r/1R3p1p/6p1/2b3P1/5nNP/1B5q/5P2/3Q2K1 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: g4h6 (confidenza 50%)
+Alternative considerate per la prima mossa: g4h6 (50%), g4f6 (43%), b3f7 (2%)
+Tempo di calcolo: 0.00s","The key is to force the black queen away from the defense of the back rank and deliver a decisive rook lift that the opponent cannot meet, leading to a forced checkmate on the fifth ply.
+
+SOLUTION: d1h5 h3h2 d5f7 h2h1q f7f8q",,,,,,GNN
+polgar_4108,3,r4rk1/ppq2p1p/1b2nPpQ/3p4/6N1/8/PB3PPP/R4RK1 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: h6g7 (confidenza 69%)
+  mossa 2 del solver: f6g7 (confidenza 60%)
+Alternative considerate per la prima mossa: h6g7 (69%), b2a3 (18%), h6h7 (11%)
+Tempo di calcolo: 0.01s","The key is the queen sacrifice on g7 forcing the knight capture; then the knight jump to f6 gives a check that the king cannot escape, and the final knight move to h5 delivers mate.
+
+SOLUTION: h6g7 e6g7 g4f6 g8h8 f6h5",,,,,,GNN
+polgar_3932,3,r1kb2n1/pp4p1/2nPp2r/4N3/2Q5/8/PPPP1qP1/R1BK1B2 w - - 0 1,"The key is the pawn thrust d6‑d7+, forcing the black king to b8; then the queen infiltrates on c6 with check, and the white queen finally mates on c8.
+
+SOLUTION: d6d7 Kb8 c4c6 Ka7 c6c8#","Suggerimento per il matto in 3:
+  mossa 1 del solver: d6d7 (confidenza 57%)
+Alternative considerate per la prima mossa: d6d7 (57%), e5c6 (24%), c4c6 (13%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_4078,3,8/r1N4p/1pR5/5k1K/3Pp3/4P1pp/4r3/1q6 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: c6e6 (confidenza 53%)
+Alternative considerate per la prima mossa: c6e6 (53%), h5h6 (19%), c7e8 (17%)
+Tempo di calcolo: 0.00s","The key is the rook check on the fifth rank; Black’s king is forced onto the e‑file where the white rook and pawn coordinate a rapid mate, and Black has no interposing or escaping moves.
+
+SOLUTION: c6c5 e5e4 c5c4 e4d3 c4d4",,,,,,GNN
+polgar_4310,3,2k3r1/1pp5/p1p5/4R2p/7n/2NP3P/PPP2r2/6RK b - - 0 1,"The key is the back‑rank rook check: 1…Rf1+ forces the king to h2 (all other replies are illegal or also lose), after which the rook slides to h1 delivering mate because the king’s escape squares are covered by its own pawn and the opposing knight.
+
+SOLUTION: f2f1 h1h2 f1h1","Suggerimento per il matto in 3:
+  mossa 1 del solver: g8g1 (confidenza 86%)
+Alternative considerate per la prima mossa: g8g1 (86%), h4f3 (4%), f2c2 (2%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_4154,3,r5k1/pppq1p2/3b1B2/8/3Q4/5P2/P1P2P1r/4RRK1 b - - 0 1,SOLUTION: g8h8 g2g1 h2g2,"Suggerimento per il matto in 3:
+  mossa 1 del solver: d6a3 (confidenza 40%)
+Alternative considerate per la prima mossa: d6a3 (40%), d7f5 (24%), d7b5 (15%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_3730,3,8/5Q2/1p5k/2b1p1p1/P3P2p/2P1BPPP/1P2n2K/3q4 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: f7e8 (confidenza 46%)
+Alternative considerate per la prima mossa: f7e8 (46%), f7f6 (19%), e3g5 (11%)
+Tempo di calcolo: 0.00s","The queen can deliver an immediate decisive blow on the h‑file; any king move is illegal because the queen attacks the escape squares, and no black piece can interpose or capture the checking queen, so the mate is forced.
+
+SOLUTION: f7f6",,,,,,GNN
+polgar_4461,3,r1b2r1k/pp4pB/6Q1/3p2N1/2n5/1N2P1P1/PP3q1P/2R4K b - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: f2f1 (confidenza 91%)
+  mossa 2 del solver: f8f1 (confidenza 100%)
+  mossa 3 del solver: c4e3 (confidenza 66%)
+Alternative considerate per la prima mossa: f2f1 (91%), c4e3 (5%), c8g4 (3%)
+Tempo di calcolo: 0.01s","The black queen can deliver immediate mate by moving to f1; the white king on h1 has no squares, blocks, or captures available, making it a forced checkmate.
+
+SOLUTION: f2f1",,,,,,GNN
+polgar_3870,3,3r1k2/1bb2p1p/6pN/6Pq/B4n2/6P1/5P2/3QR1K1 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: d1d8 (confidenza 100%)
+  mossa 2 del solver: e1e8 (confidenza 100%)
+  mossa 3 del solver: e8g8 (confidenza 97%)
+Alternative considerate per la prima mossa: d1d8 (100%), e1e8 (0%), d1a1 (0%)
+Tempo di calcolo: 0.01s","The key is the queen sacrifice on e8 forcing the only defense Rxe8; after the rook moves off the d‑file the white bishop on a4 jumps to e8 delivering a forced mate.
+
+SOLUTION: e1e8 d8e8 a4e8",,,,,,GNN
+polgar_3847,3,n7/kr1P4/8/Kp6/8/8/8/7Q w - - 0 1,SOLUTION: h1b7 a7xb7 d7d8q,"Suggerimento per il matto in 3:
+  mossa 1 del solver: d7d8q (confidenza 23%)
+Alternative considerate per la prima mossa: d7d8b (23%), d7d8r (23%), d7d8q (23%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_4117,3,K6k/1p4R1/p3N2P/b2p2p1/B1p5/2p5/1r6/8 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: e6f8 (confidenza 60%)
+Alternative considerate per la prima mossa: e6f8 (60%), e6g5 (16%), a4e8 (13%)
+Tempo di calcolo: 0.00s","The key is to force the black king onto h7 with a rook check that cannot be captured because the rook is protected, then deliver a knight check on f8 that covers all escape squares, giving mate.
+
+SOLUTION: g7g8 h8h7 e6f8",,,,,,GNN
+polgar_4140,3,r5k1/p3Qpbp/2p3p1/1p6/q3bN2/6PP/PP3P2/K2RR3 b - - 0 1,"The key is the queen capture on a2, which checks the king that has no squares to flee and cannot capture the queen because it is defended by the rook on a8 after the pawn on a7 moves; any white move fails to stop the inevitable mate on the next move.
+
+SOLUTION: a4a2 a1b1 a2a1","Suggerimento per il matto in 3:
+  mossa 1 del solver: a4d1 (confidenza 58%)
+Alternative considerate per la prima mossa: a4d1 (58%), g7b2 (17%), a4a2 (10%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+polgar_3948,3,2k1N3/3pK3/P2P4/1q6/1r2Q3/8/8/8 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: e4a8 (confidenza 43%)
+  mossa 2 del solver: e8c7 (confidenza 36%)
+Alternative considerate per la prima mossa: e4a8 (43%), e4g6 (26%), e4h7 (7%)
+Tempo di calcolo: 0.01s","The key is to force the black king onto the c‑file where it has no escape squares; White’s queen and knight coordinate to deliver a forced mate after Black’s only legal defence.
+
+SOLUTION: e4c6 b5c6 e8f6",,,,,,GNN
+polgar_3896,3,8/2p3r1/1p5p/5K1k/8/R5P1/1P4P1/8 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: a3a8 (confidenza 94%)
+Alternative considerate per la prima mossa: a3a8 (94%), g3g4 (3%), f5f6 (1%)
+Tempo di calcolo: 0.00s","The key is to give a checking pawn move that forces the black king onto h4, where it is then mated by a rook lift along the third rank.
+
+SOLUTION: g3g4 h5h4 a3g3",,,,,,GNN
+polgar_4324,3,2k1r3/Qpp4p/8/5b2/5pp1/2P3n1/PP3KP1/RNB5 b - - 0 1,"Ne4+ forces the only legal king move, after which the rook slides to f8 delivering mate.
+
+SOLUTION: g3e4 f2g1 e8f8","Suggerimento per il matto in 3:
+  mossa 1 del solver: e8e2 (confidenza 99%)
+  mossa 2 del solver: e2e1 (confidenza 87%)
+  mossa 3 del solver: e1f1 (confidenza 100%)
+Alternative considerate per la prima mossa: e8e2 (99%), e8h8 (0%), e8e4 (0%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_3834,3,2R5/5pkp/p3p1r1/3bP1P1/3NqQP1/8/5P2/6K1 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: f4f6 (confidenza 97%)
+  mossa 2 del solver: g5f6 (confidenza 65%)
+Alternative considerate per la prima mossa: f4f6 (97%), c8g8 (1%), c8c5 (0%)
+Tempo di calcolo: 0.01s","The key is the forcing queen sacrifice on f6: 1.Qf6+ forces the only legal reply Kxf6, after which the rook on c8 can deliver a decisive back‑rank check that leaves the black king without any safe squares, and the final queen move mates.
+
+SOLUTION: f4f6 f7f6 c8f8 f6g7 g7g8q",,,,,,GNN
+polgar_3724,3,2q5/1r2Bp1k/4pQpN/1pp1P2p/2p5/6P1/1P2PPKP/3r4 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: f6f7 (confidenza 79%)
+  mossa 2 del solver: e7g5 (confidenza 73%)
+  mossa 3 del solver: f2f4 (confidenza 47%)
+Alternative considerate per la prima mossa: f6f7 (79%), h6f7 (10%), f6h4 (7%)
+Tempo di calcolo: 0.01s",,,,,,,GNN
+polgar_4198,3,6k1/p4p1p/p2p2p1/P1pP4/3b1P1P/2P1rb1q/RP3N1P/2R2QK1 b - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: h3h2 (confidenza 73%)
+Alternative considerate per la prima mossa: h3h2 (73%), e3e1 (6%), d4f6 (4%)
+Tempo di calcolo: 0.00s","The key is the queen sac on h2 forcing the white king onto h2, after which the rook on e3 can deliver a back‑rank mate that cannot be blocked or captured.  
+
+SOLUTION: h3h2 g1h2 e3e2",,,,,,GNN
+polgar_4107,3,r2q1r2/pppkbbNp/2n2n2/4p3/2Q1P3/PBN1B3/1PP2PPP/R3K2R w KQ - 0 1,"The queen sac on c6 forces the black king either to step to d8 or capture, and in both cases White can deliver an immediate mate with the queen on the c‑file.
+
+SOLUTION: c4c6 d7d8 c6c8","Suggerimento per il matto in 3:
+  mossa 1 del solver: c4f7 (confidenza 62%)
+Alternative considerate per la prima mossa: c4f7 (62%), e3h6 (18%), c4e6 (10%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+polgar_4025,3,2r4k/1b1nqr1p/p3B2Q/1p2P1R1/3p1P2/1P2p2P/P1P4K/6R1 w - - 0 1,"Suggerimento per il matto in 3:
+  mossa 1 del solver: g5g8 (confidenza 83%)
+Alternative considerate per la prima mossa: g5g8 (83%), h6g7 (6%), g5h5 (4%)
+Tempo di calcolo: 0.01s","Qg8 delivers an immediate check that cannot be captured, blocked, or escaped, as all escape squares are either occupied or controlled by White’s pieces, resulting in checkmate.
+
+SOLUTION: g6g8",,,,,,GNN
+3Vvre,4,2rk3r/1Rp2p2/3P1q2/1BB1b3/8/2N3p1/1PP3P1/Q3R1K1 b - - 0 29,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h8h1 (confidenza 94%)
+Alternative considerate per la prima mossa: h8h1 (94%), e5c3 (2%), f6f2 (1%)
+Tempo di calcolo: 0.00s",SOLUTION: f6f2 g1f2 h8g8 f2g1,,,,,,GNN
+ww4mU,4,2r5/8/3R4/5pkp/1pr3p1/2b1P1P1/2R1KP1P/8 w - - 4 39,"Suggerimento per il matto in 4:
+  mossa 1 del solver: f2f4 (confidenza 59%)
+Alternative considerate per la prima mossa: f2f4 (59%), h2h4 (39%), d6e6 (0%)
+Tempo di calcolo: 0.00s","The key is to drive the black king onto the g‑file with a series of forcing checks, using the two white rooks to restrict its escape squares; once the king is forced to f6 the rook on f5 delivers the final mate.
+
+SOLUTION: d6d5 g5g6 d6g6 f5f6 g6f6 f5f5",,,,,,GNN
+E0Dnk,4,5rk1/R4ppp/8/1p6/2p5/2P1PQ1P/3n2BK/4q3 w - - 0 27,"The key is to force the black king onto a vulnerable square by a queen sacrifice on f8, after which the only capture leads to a forced rook mate.  
+
+SOLUTION: f3f8 r8f8 a7f8","Suggerimento per il matto in 4:
+  mossa 1 del solver: f3f7 (confidenza 100%)
+  mossa 2 del solver: a7a8 (confidenza 99%)
+  mossa 3 del solver: g2d5 (confidenza 86%)
+  mossa 4 del solver: a8f8 (confidenza 100%)
+Alternative considerate per la prima mossa: f3f7 (100%), f3h5 (0%), f3f5 (0%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+DjN4X,4,1kr3r1/1p2R3/3p4/1p1N4/1R2P1p1/P7/5PP1/6K1 b - - 1 30,"Suggerimento per il matto in 4:
+  mossa 1 del solver: c8c1 (confidenza 96%)
+  mossa 2 del solver: g4g3 (confidenza 76%)
+  mossa 3 del solver: c1h1 (confidenza 34%)
+Alternative considerate per la prima mossa: c8c1 (96%), c8c2 (3%), g8h8 (1%)
+Tempo di calcolo: 0.01s","The key is to force the white king onto f1 with a pawn push, after which the rook on c8 can deliver a back‑rank mate that cannot be parried.
+
+SOLUTION: g4g3 g1f1 c8c1",,,,,,GNN
+wm4tm,4,8/5Q2/4p1pk/4P2p/1P3P2/6K1/3q2PP/8 b - - 7 48,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h5h4 (confidenza 43%)
+Alternative considerate per la prima mossa: h5h4 (43%), d2e1 (17%), d2e3 (9%)
+Tempo di calcolo: 0.00s","The key is the queen sacrifice on d3, delivering a direct check that forces the white king onto h4, after which the queen slides to h3 delivering a mate that cannot be parried.
+
+SOLUTION: d2d3 h4h4 h3h3",,,,,,GNN
+o5ZfQ,4,r1b1B2k/4n1pp/p1pp4/1p5Q/PP2P3/2PP4/3q2PP/5R1K w - - 0 22,"Suggerimento per il matto in 4:
+  mossa 1 del solver: f1f8 (confidenza 72%)
+  mossa 2 del solver: f8g8 (confidenza 60%)
+  mossa 3 del solver: h5f7 (confidenza 99%)
+  mossa 4 del solver: f7f8 (confidenza 95%)
+Alternative considerate per la prima mossa: f1f8 (72%), h5h7 (13%), e8g6 (6%)
+Tempo di calcolo: 0.02s","The key is to force the black king onto the g‑file with a rook sacrifice; once the king is on g8 the white queen can deliver the final blow on h8, while Black has no way to interpose or capture the queen.
+
+SOLUTION: f1f8 e7g8 h5h8 g8h8
+
+",,,,,,GNN
+wnTPk,4,5k2/2p4Q/3p4/rp1P2P1/2Pq2BK/pP5P/P3n3/4R3 b - - 6 32,"The key is the queen sacrifice on g4 forcing the white pawn to capture, after which the queen infiltrates via g1 delivering a forced forced mating net that white cannot avoid.
+
+SOLUTION: d4g4 hxg4 d4g1 Kg5 g1h1","Suggerimento per il matto in 4:
+  mossa 1 del solver: d4f2 (confidenza 41%)
+  mossa 2 del solver: f2e1 (confidenza 60%)
+Alternative considerate per la prima mossa: d4f2 (41%), d4e3 (34%), b5c4 (12%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+DqYpu,4,rq6/3np1k1/2p3N1/1p1p2P1/1P4P1/8/pp2K3/7Q w - - 0 33,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h1h6 (confidenza 98%)
+  mossa 2 del solver: h6h8 (confidenza 89%)
+  mossa 3 del solver: h8h7 (confidenza 85%)
+  mossa 4 del solver: h7e7 (confidenza 100%)
+Alternative considerate per la prima mossa: h1h6 (98%), g6e7 (1%), h1h4 (0%)
+Tempo di calcolo: 0.02s","The key is to force the Black king onto the g‑file by a queen sacrifice, after which the white queen can deliver a back‑rank mate while the Black pieces are unable to interpose or escape. White’s first move opens the h‑file, Black’s best defence cannot prevent the forced sequence, and the final queen move mates.
+
+SOLUTION: h5h6 g7g6 h6h7 g8g7",,,,,,GNN
+ctvwy,4,r6r/ppp3pp/2n1Nnk1/4p3/8/1QPq4/PP1N1KPP/R1B4R b - - 0 14,"Suggerimento per il matto in 4:
+  mossa 1 del solver: f6g4 (confidenza 83%)
+  mossa 2 del solver: g4e3 (confidenza 46%)
+Alternative considerate per la prima mossa: f6g4 (83%), f6h5 (4%), d3f5 (2%)
+Tempo di calcolo: 0.01s","The key is the queen sacrifice on f1 delivering a forced check; the white king has no safe squares and after it steps to g3 the queen captures on g2 delivering inevitable mate.
+
+SOLUTION: d3f1 f2g3 f1g2",,,,,,GNN
+nbbeQ,4,8/8/knQN3P/3p4/3P4/8/2Pq1BP1/1r1N2K1 b - - 8 41,"Suggerimento per il matto in 4:
+  mossa 1 del solver: b1d1 (confidenza 46%)
+  mossa 2 del solver: d1h1 (confidenza 65%)
+Alternative considerate per la prima mossa: b1d1 (46%), d2d1 (33%), d2f4 (6%)
+Tempo di calcolo: 0.01s","The key idea is that Black’s queen can deliver a checking capture on d1. White’s only ways to meet this check are either to block with the bishop on f1 or to move the king, but the king move runs into a forced continuation that also ends in mate. By forcing the bishop block, Black can then capture on f1 with the queen, delivering a direct check that cannot be parried.
+
+SOLUTION: d2d1 f2f1 d1f1",,,,,,GNN
+4J8Af,4,6k1/3B3p/p5p1/q4p2/2pp1PPQ/8/P1r5/5K2 w - - 0 36,SOLUTION: h4g5 Kg8h8 g5g8,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h4f6 (confidenza 49%)
+Alternative considerate per la prima mossa: h4f6 (49%), h4h7 (15%), h4e7 (7%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+cVlTY,4,r4k1r/pb4p1/4p3/1B3p2/1b1pN2q/3P1Q2/P1P2PP1/R1BR1K2 b - - 5 20,"The queen sacrifice on f2 forces the white king onto f2 where Black’s bishops coordinate a decisive mating net, leaving White with no defensive moves and culminating in a forced checkmate two moves later.
+
+SOLUTION: h4f2 f1f2 b4e1 ","Suggerimento per il matto in 4:
+  mossa 1 del solver: h4h1 (confidenza 46%)
+  mossa 2 del solver: h8h2 (confidenza 81%)
+Alternative considerate per la prima mossa: h4h1 (46%), b4c3 (40%), h4h2 (7%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+4Sa5B,4,1Q3R2/6kp/6pq/3p1p2/8/6K1/6PP/8 b - - 7 43,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h6e3 (confidenza 47%)
+  mossa 2 del solver: g6g5 (confidenza 46%)
+  mossa 3 del solver: e3e1 (confidenza 43%)
+Alternative considerate per la prima mossa: h6e3 (47%), h6c1 (31%), h6d2 (12%)
+Tempo di calcolo: 0.01s","The queen check on g5 forces the white king away from the protection of its own pieces, and every legal king move runs into a forced queen infiltration that cannot be blocked or captured, culminating in a final queen checkmate.
+
+SOLUTION: h6g5 g3f2 g5g2",,,,,,GNN
+ERGaR,4,5Q2/pp5k/6pp/2p5/2q1r2P/2n1PN2/P4PP1/R4RK1 b - - 2 38,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e4h4 (confidenza 54%)
+Alternative considerate per la prima mossa: e4h4 (54%), c3e2 (32%), e4e3 (9%)
+Tempo di calcolo: 0.01s","The key is a queen sacrifice on c1 forcing a forced line that drives the white king onto the second rank where the black rook and queen deliver a back‑rank mate; any other defence runs into a forced mate in four moves.
+
+SOLUTION: c4c1 f8c1 e4e3 g1f2 e3f2#",,,,,,GNN
+nlUmh,4,5rk1/p4ppp/8/3PQNNn/4P3/8/PP2q3/6K1 w - - 2 35,"The queen can slide to d8 delivering a direct rook‑like check on the black king; the king has no escape squares, no piece can interpose on the e8–d8 line, and no capture is possible, so it is immediate mate.
+
+SOLUTION: d5d8","Suggerimento per il matto in 4:
+  mossa 1 del solver: e5g7 (confidenza 37%)
+Alternative considerate per la prima mossa: e5g7 (37%), f5h6 (30%), f5e7 (24%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+n8aac,4,8/2R5/1r3k1p/1p6/2B2P2/6P1/6KP/q7 w - - 2 47,"Suggerimento per il matto in 4:
+  mossa 1 del solver: c7f7 (confidenza 79%)
+  mossa 2 del solver: f4f5 (confidenza 98%)
+  mossa 3 del solver: f7h7 (confidenza 41%)
+Alternative considerate per la prima mossa: c7f7 (79%), c4f7 (6%), c7c8 (5%)
+Tempo di calcolo: 0.01s","The key is to force the black king onto g6 where the bishop on c4 can deliver a decisive blow; the rook check on the f‑file forces the king onto that square, after which the bishop’s diagonal gives mate regardless of any queen or rook interpositions.
+
+SOLUTION: c7f7 f6g6 c4f7",,,,,,GNN
+3Qqt2,4,1r1RQ3/6k1/b5B1/2R5/8/p6p/P1P2r2/2K5 b - - 0 34,SOLUTION: f2f1 d8d1 f1d1,"Suggerimento per il matto in 4:
+  mossa 1 del solver: b8b1 (confidenza 33%)
+  mossa 2 del solver: a6f1 (confidenza 44%)
+Alternative considerate per la prima mossa: b8b1 (33%), a6f1 (31%), f2f1 (14%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+xMOTp,4,2r1n3/5kpQ/p2p2R1/3Ppq2/1pr5/4BP2/PPP5/1K4R1 b - - 0 28,"Suggerimento per il matto in 4:
+  mossa 1 del solver: f5c2 (confidenza 100%)
+  mossa 2 del solver: c2c1 (confidenza 99%)
+  mossa 3 del solver: c4c1 (confidenza 100%)
+  mossa 4 del solver: c8c1 (confidenza 100%)
+Alternative considerate per la prima mossa: f5c2 (100%), f5f3 (0%), c4c2 (0%)
+Tempo di calcolo: 0.02s",SOLUTION: c8c1 b1a2 c1a1 a2a1#,,,,,,GNN
+4OElV,4,2k4r/1ppq4/3p4/p2Pn1p1/2PQ4/PP4Pr/5PB1/R3R1K1 b - - 0 24,"The key is to force the white queen onto a square where Black’s rook can deliver a back‑rank mate. By playing the queen check, White’s only legal reply is to capture, after which the rook slides onto the decisive square delivering checkmate.
+
+SOLUTION: d7c6 d4c6 h3c3 c6c7 c3c7","Suggerimento per il matto in 4:
+  mossa 1 del solver: h3h1 (confidenza 93%)
+  mossa 2 del solver: h8h1 (confidenza 98%)
+  mossa 3 del solver: d7h3 (confidenza 47%)
+  mossa 4 del solver: e5f3 (confidenza 99%)
+Alternative considerate per la prima mossa: h3h1 (93%), e5f3 (6%), h3g3 (1%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+3fv3I,4,r1b1k2B/ppp2p2/4p3/3p3p/2PP3q/2NBP1p1/PP4P1/R2Q2K1 b q - 1 16,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h4h2 (confidenza 100%)
+  mossa 2 del solver: h2h1 (confidenza 100%)
+  mossa 3 del solver: h1g2 (confidenza 100%)
+  mossa 4 del solver: g2f2 (confidenza 100%)
+Alternative considerate per la prima mossa: h4h2 (100%), h4g5 (0%), h4h1 (0%)
+Tempo di calcolo: 0.02s",SOLUTION: h4h2,,,,,,GNN
+d7URQ,4,2R1R3/p2n1pk1/1b1rpp2/p6p/7P/1P3PP1/P3P3/5K2 w - - 5 39,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e8g8 (confidenza 75%)
+  mossa 2 del solver: g8h8 (confidenza 98%)
+  mossa 3 del solver: c8g8 (confidenza 85%)
+  mossa 4 del solver: h8h5 (confidenza 44%)
+Alternative considerate per la prima mossa: e8g8 (75%), e8e7 (23%), e8h8 (1%)
+Tempo di calcolo: 0.02s","The key is the rook lift Rg8+, which forces the black king onto a limited square; after the king moves, the other rook can slide to the g‑file delivering an unavoidable mate.
+
+SOLUTION: e8g8 h7g8 c8g8",,,,,,GNN
+dQ1jN,4,1k2r3/pbp2p2/1p3p1p/5B2/3b4/2N4P/PPQ2PP1/6K1 b - - 0 21,SOLUTION: e8e1 h1h2 d4f2,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e8e1 (confidenza 94%)
+  mossa 2 del solver: d4e5 (confidenza 54%)
+  mossa 3 del solver: e5f4 (confidenza 99%)
+  mossa 4 del solver: e1h1 (confidenza 100%)
+Alternative considerate per la prima mossa: e8e1 (94%), b7a6 (3%), e8h8 (2%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+4gTEw,4,8/4Q2p/5pbk/2pq2p1/8/5PP1/6KP/8 w - - 2 40,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e7f8 (confidenza 76%)
+  mossa 2 del solver: g3g4 (confidenza 98%)
+  mossa 3 del solver: f8h6 (confidenza 93%)
+  mossa 4 del solver: h6h5 (confidenza 100%)
+Alternative considerate per la prima mossa: e7f8 (76%), e7f6 (19%), e7e3 (1%)
+Tempo di calcolo: 0.02s",SOLUTION: e7e8 g6f5 e8e5 f5g4 e5g5 g4g3 g5g6,,,,,,GNN
+4ROgN,4,2r3k1/pp3pp1/6P1/3p4/b7/4K1Q1/1p3PP1/q1B4R w - - 0 26,"The key is to force the black king onto the g‑file where the white rook can deliver a decisive back‑rank check; white’s queen and bishop coordinate to eliminate all flight squares and any interposing defense, so after a series of forcing checks Black cannot avoid the final rook mate.
+
+SOLUTION: g6g7 Qg3g8 Rg8h8
+
+","Suggerimento per il matto in 4:
+  mossa 1 del solver: g6f7 (confidenza 71%)
+Alternative considerate per la prima mossa: g6f7 (71%), h1h8 (22%), g3d6 (2%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+wdzMT,4,6k1/p4rpp/1p1p1r2/1Qn1p3/2PpPp2/BP3P1q/P3K1RP/6R1 w - - 2 27,"Suggerimento per il matto in 4:
+  mossa 1 del solver: b5e8 (confidenza 80%)
+  mossa 2 del solver: g2g7 (confidenza 100%)
+  mossa 3 del solver: g7g8 (confidenza 92%)
+  mossa 4 del solver: e8g8 (confidenza 78%)
+Alternative considerate per la prima mossa: b5e8 (80%), g2g7 (9%), b5c6 (7%)
+Tempo di calcolo: 0.02s",SOLUTION: b5e8 g8h8 g1g8,,,,,,GNN
+3b7wQ,4,3r2k1/ppq3p1/2pbb1Q1/8/3P4/5r2/PPP5/1K4RR w - - 0 24,"Suggerimento per il matto in 4:
+  mossa 1 del solver: h1h8 (confidenza 69%)
+Alternative considerate per la prima mossa: h1h8 (69%), g6h7 (30%), g6e6 (1%)
+Tempo di calcolo: 0.00s","The key is to force the black king onto a square where the white queen can deliver a direct mate, using a queen sacrifice to deflect the defending rook and then a rook lift to give a checking line. After the forced exchanges the queen finishes the attack with a back‑rank check.
+
+SOLUTION: g6f7 f3f7 h1g1 g8f8 g6g8",,,,,,GNN
+3MtUi,4,6rk/ppp1Q1pp/8/5b1q/1P6/7r/P4P1P/3R2RK w - - 6 26,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e7g7 (confidenza 99%)
+  mossa 2 del solver: d1d8 (confidenza 100%)
+  mossa 3 del solver: d8e8 (confidenza 100%)
+  mossa 4 del solver: g1g8 (confidenza 99%)
+Alternative considerate per la prima mossa: e7g7 (99%), d1d8 (1%), e7e5 (0%)
+Tempo di calcolo: 0.02s",SOLUTION: e7h7 h5h7 d1d8,,,,,,GNN
+nTL45,4,2r1rk2/pp6/4b1Qp/3pp3/5P2/5R2/P5PK/4q3 w - - 2 31,"The white queen can deliver an immediate check on f6; the black king on f8 has no escape squares, cannot capture the queen, and no piece can interpose, so it is checkmate right away.
+
+SOLUTION: g6f6","Suggerimento per il matto in 4:
+  mossa 1 del solver: g6h6 (confidenza 41%)
+Alternative considerate per la prima mossa: g6h6 (41%), g6f6 (36%), g6h5 (12%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+bkFOE,4,2k5/1p4p1/P1p1p2p/3pn3/6P1/5q1P/2Q1NB2/R4K2 b - - 2 34,"Suggerimento per il matto in 4:
+  mossa 1 del solver: f3h1 (confidenza 49%)
+Alternative considerate per la prima mossa: f3h1 (49%), f3h3 (38%), e5g4 (3%)
+Tempo di calcolo: 0.00s","The key is that Black’s queen check on f2 forces White’s king to capture, after which a knight check drives the king to a forced square where the knight delivers mate.
+
+SOLUTION: f3f2 f1f2 e5d3 f2e2 d3f1",,,,,,GNN
+Dusve,4,3Q4/p4pPk/2p4p/1pPpq3/8/P3r1PP/5RK1/5R2 b - - 0 37,,"Suggerimento per il matto in 4:
+  mossa 1 del solver: e3g3 (confidenza 58%)
+Alternative considerate per la prima mossa: e3g3 (58%), e5g3 (41%), e5e4 (0%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+Dx7ks,5,r1bq1r2/pppnb1pk/2n1p3/3pP1p1/3P3P/2P5/PP1N1PP1/R1BQK2R w KQ - 0 11,"The key is to force the black king onto g8 where the queen can deliver a decisive blow; White’s first move limits Black’s replies and the subsequent forcing moves drive the king into the mating net.
+
+SOLUTION: d2c4 d5c4 e5e6 f7e6 d1h5 g8h8 h5h8","Suggerimento per il matto in 5:
+  mossa 1 del solver: h4g5 (confidenza 99%)
+  mossa 2 del solver: h1h8 (confidenza 97%)
+  mossa 3 del solver: d1h5 (confidenza 97%)
+  mossa 4 del solver: g5g6 (confidenza 100%)
+  mossa 5 del solver: e5f6 (confidenza 100%)
+  mossa 6 del solver: h5h7 (confidenza 100%)
+  mossa 7 del solver: h7h8 (confidenza 100%)
+Alternative considerate per la prima mossa: h4g5 (99%), d1h5 (1%), d1g4 (0%)
+Tempo di calcolo: 0.03s",,,,,,LLM
+zYbJS,5,r1bqk2r/pp1n1pp1/2p5/2Pp3p/1P1Pp1P1/2N1P3/P2NB1PK/R1BQ1R2 b kq - 0 13,"The key is to open the g‑file with a queen sacrifice that forces the white king onto a mating net; Black’s queen infiltrates via h4, White’s only replies run out of squares and Black finishes with a rook delivering mate.
+
+SOLUTION: d8h4 g2g3 h4g4 g1h2 g8h8","Suggerimento per il matto in 5:
+  mossa 1 del solver: h5g4 (confidenza 100%)
+  mossa 2 del solver: h8h1 (confidenza 95%)
+  mossa 3 del solver: d8h4 (confidenza 96%)
+  mossa 4 del solver: g4g3 (confidenza 100%)
+  mossa 5 del solver: e4f3 (confidenza 100%)
+  mossa 6 del solver: h4h2 (confidenza 100%)
+  mossa 7 del solver: h2h1 (confidenza 100%)
+Alternative considerate per la prima mossa: h5g4 (100%), d8h4 (0%), d8g5 (0%)
+Tempo di calcolo: 0.03s",,,,,,LLM
+SkwEB,5,r1bq1rk1/pp1nb1p1/2n1p3/3pP1P1/3P4/2N5/PP3PP1/R1BQK2R w KQ - 1 14,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h1h8 (confidenza 97%)
+  mossa 2 del solver: d1h5 (confidenza 95%)
+  mossa 3 del solver: g5g6 (confidenza 100%)
+  mossa 4 del solver: e5f6 (confidenza 100%)
+  mossa 5 del solver: h5h7 (confidenza 100%)
+  mossa 6 del solver: h7h8 (confidenza 100%)
+Alternative considerate per la prima mossa: h1h8 (97%), d1b3 (1%), d1g4 (1%)
+Tempo di calcolo: 0.03s","The key is that White’s queen can force a decisive attack on the black king; Black’s only reasonable defenses run out, allowing White to deliver a forced checkmate after a sequence of forcing queen moves and a final delivering move.
+
+SOLUTION: h1h8 d8h4 h8h7 h4h7 f8h8",,,,,,GNN
+RGTMs,5,rn5k/ppp2Qp1/3b3p/8/3PR2q/2P4b/PP1N1Pp1/R1B3K1 b - - 0 19,"Suggerimento per il matto in 5:
+  mossa 1 del solver: d6h2 (confidenza 64%)
+  mossa 2 del solver: h3g4 (confidenza 41%)
+Alternative considerate per la prima mossa: d6h2 (64%), h4g5 (17%), h4e4 (7%)
+Tempo di calcolo: 0.01s","The queen can force a swift checkmate by delivering a check on h2; the king’s only legal move is to f1, after which the queen slides to f2 delivering unavoidable mate.
+
+SOLUTION: h4h2 g1f1 h2f2",,,,,,GNN
+zESbc,5,2b4r/5R2/2p1p2k/8/p6p/4q1P1/2B3KP/5R2 w - - 4 36,"The key is the rook sacrifice on h8 delivering a direct check; Black’s king has only a few flight squares and each leads to a forced rook infiltration that ends with a back‑rank mate in exactly five plies.
+
+SOLUTION: f8h8 g5h6 f6f5 h6g5 f5g5","Suggerimento per il matto in 5:
+  mossa 1 del solver: f1f6 (confidenza 64%)
+  mossa 2 del solver: g3g4 (confidenza 61%)
+  mossa 3 del solver: f7e7 (confidenza 24%)
+Alternative considerate per la prima mossa: f1f6 (64%), f7f8 (12%), f1h1 (6%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+hBlDZ,5,2r5/pQ4p1/1p1Rb1k1/2pB1p2/5B1p/Pq4P1/1P3P1P/6K1 b - - 1 29,SOLUTION: b2f2,"Suggerimento per il matto in 5:
+  mossa 1 del solver: b3d1 (confidenza 62%)
+  mossa 2 del solver: h4h3 (confidenza 99%)
+  mossa 3 del solver: c8h8 (confidenza 20%)
+Alternative considerate per la prima mossa: b3d1 (62%), b3b2 (9%), b3d3 (9%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+zKJm3,5,1rb3k1/5Np1/p3p1Q1/3p3P/2pP2Pq/2N1P3/Pr3nK1/1R3R2 w - - 3 30,"Suggerimento per il matto in 5:
+  mossa 1 del solver: f7h6 (confidenza 80%)
+  mossa 2 del solver: g6e8 (confidenza 81%)
+  mossa 3 del solver: e8g8 (confidenza 99%)
+  mossa 4 del solver: g8f7 (confidenza 29%)
+Alternative considerate per la prima mossa: f7h6 (80%), f7e5 (9%), f7d6 (3%)
+Tempo di calcolo: 0.02s",SOLUTION: g6g7 g8g7 f7h6 g8h8 h6g8#,,,,,,GNN
+RmXqC,5,6k1/4b1p1/p3pp2/1p2p1pQ/3q2P1/1Pn2r2/PKP5/2R5 w - - 8 39,"The queen can slide up the h‑file to h8 delivering immediate check; the black king has no squares and no piece can interpose or capture, so it is forced mate.
+
+SOLUTION: h5h8","Suggerimento per il matto in 5:
+  mossa 1 del solver: h5e8 (confidenza 77%)
+  mossa 2 del solver: e8f8 (confidenza 43%)
+Alternative considerate per la prima mossa: h5e8 (77%), h5g6 (16%), h5h8 (2%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+Yq7bU,5,r4rk1/pp3p1p/2n1pp2/3p4/8/3Q4/PqPN3P/4RR1K w - - 0 20,"The key is a forcing queen move that creates an unstoppable mating net; Black’s only replies either lose material or allow a quick rook sacrifice that opens the g‑file, after which White’s queen delivers mate on g8.
+
+SOLUTION: d3g6 b2a2 e1e6 f6e6 g6g8#","Suggerimento per il matto in 5:
+  mossa 1 del solver: e1e6 (confidenza 40%)
+Alternative considerate per la prima mossa: e1e6 (40%), d3h7 (15%), d3h3 (11%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+gKYFY,5,1k6/p4p1p/QP1p2p1/1Pp4q/8/5PP1/2PB3r/1R2KR2 b - - 4 29,"The key is that Black’s queen can force the white king onto the a‑file by a series of checks, after which the rook on h2 slides to the a‑file delivering an unavoidable mate. By delivering the first check with the queen on h1 and then using the rook to cut off the king’s escape squares, White has no defensive resource and is mated on the final move.
+
+SOLUTION: h5h1 f1h1 a6a8 b1a8 a8a1 ","Suggerimento per il matto in 5:
+  mossa 1 del solver: h2g2 (confidenza 44%)
+Alternative considerate per la prima mossa: h2g2 (44%), h2d2 (33%), h5h3 (11%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+LWfLQ,5,r1b5/pp1nq1k1/3Np3/3nbBr1/7Q/P4R2/1P4PP/R6K w - - 0 27,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h4h7 (confidenza 85%)
+  mossa 2 del solver: f5g6 (confidenza 19%)
+Alternative considerate per la prima mossa: h4h7 (85%), d6e8 (3%), f5e6 (2%)
+Tempo di calcolo: 0.02s","The key is to force the exchange on g5, then use the rook on f2 to deliver a checking rook that forces the black king onto f8, after which the rook slides to g7 for mate.
+
+SOLUTION: h4g5 e7g5 f2g5 g7f8 g5g7",,,,,,GNN
+YSpNa,5,2k4r/pp3pp1/2n2n2/2q5/3Pp3/1P3Np1/PBP1BPP1/R2Q1RK1 b - - 2 18,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h8h1 (confidenza 73%)
+  mossa 2 del solver: f6g4 (confidenza 58%)
+Alternative considerate per la prima mossa: h8h1 (73%), f6g4 (17%), e4f3 (4%)
+Tempo di calcolo: 0.01s","The key is a queen sacrifice on c2 that forces the white knight to recapture, after which the rook on h8 slides to g8 delivering a discovered check, and the rook finishes the mate on g1.
+
+SOLUTION: c5c2 d3c2 h8g8 f1f2 g8g1#",,,,,,GNN
+Muuhe,5,3Q4/p2p1p1p/b3p1pk/1q2P3/3p4/KP3P2/P1r5/6R1 w - - 0 32,"Suggerimento per il matto in 5:
+  mossa 1 del solver: d8g5 (confidenza 78%)
+Alternative considerate per la prima mossa: d8g5 (78%), d8f8 (4%), g1g5 (4%)
+Tempo di calcolo: 0.01s",SOLUTION: c8g8 h6g5 g8h7 g5h5 h7h5,,,,,,GNN
+TAoKz,5,r4r2/pb1n2k1/1p4p1/4pp2/2P5/1PN3Pq/1P1Q1P1P/R3RBK1 b - - 2 21,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h3h2 (confidenza 57%)
+  mossa 2 del solver: f8h8 (confidenza 74%)
+  mossa 3 del solver: h8h3 (confidenza 98%)
+  mossa 4 del solver: a8h8 (confidenza 88%)
+  mossa 5 del solver: h8h6 (confidenza 100%)
+Alternative considerate per la prima mossa: h3h2 (57%), b7f3 (15%), d7c5 (13%)
+Tempo di calcolo: 0.02s","The queen can deliver a decisive blow on g2; the bishop on b7 protects the queen, while all king escape squares are covered, leaving no defence.
+
+SOLUTION: g3g2",,,,,,GNN
+gMNIx,5,8/pp2P3/2b3k1/2p1Q3/2B2Bp1/4PrPq/P6P/R5K1 b - - 4 37,SOLUTION: h3g2,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h3h2 (confidenza 31%)
+Alternative considerate per la prima mossa: h3h2 (31%), f3f1 (30%), f3g3 (21%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+fom24,5,k5rr/B2q2b1/5pp1/Q2Pp3/8/P2P1nP1/4PK1P/1R3R2 b - - 2 27,SOLUTION: d7f5 a5xf5 f8f2+ Kg1 g8g2#,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h8h2 (confidenza 33%)
+  mossa 2 del solver: g7h6 (confidenza 33%)
+Alternative considerate per la prima mossa: h8h2 (33%), d7g4 (28%), f3d4 (12%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+DqPGi,5,4r2k/1R1Q4/p5p1/7p/P1Pb4/3P4/1P2nqPP/R6K b - - 1 25,"Suggerimento per il matto in 5:
+  mossa 1 del solver: e2g3 (confidenza 67%)
+  mossa 2 del solver: e8e1 (confidenza 95%)
+  mossa 3 del solver: f2e1 (confidenza 62%)
+  mossa 4 del solver: e1g1 (confidenza 83%)
+  mossa 5 del solver: g1h1 (confidenza 99%)
+Alternative considerate per la prima mossa: e2g3 (67%), e2f4 (7%), f2h4 (6%)
+Tempo di calcolo: 0.02s",SOLUTION: g8h8 d7h7 h8f8 h7g8,,,,,,GNN
+zckUH,5,8/7P/8/8/2pkb3/3p4/3Kp3/7R b - - 0 49,"Suggerimento per il matto in 5:
+  mossa 1 del solver: c4c3 (confidenza 90%)
+  mossa 2 del solver: d3d2 (confidenza 54%)
+Alternative considerate per la prima mossa: c4c3 (90%), e4f3 (5%), e4f5 (2%)
+Tempo di calcolo: 0.01s",SOLUTION: e4d3 d2c2 d3c4 c2b2 c4b4 b2a2 b4a4 a2a1#,,,,,,GNN
+La7cH,5,8/8/p1p5/8/1P6/3kp3/3N4/3K4 b - - 0 59,"Suggerimento per il matto in 5:
+  mossa 1 del solver: e3d2 (confidenza 79%)
+  mossa 2 del solver: d3e3 (confidenza 34%)
+Alternative considerate per la prima mossa: e3d2 (79%), e3e2 (21%), d3c3 (0%)
+Tempo di calcolo: 0.01s","The key is the pawn push e3‑e2 delivering check; the white king’s only safe squares lead into a ladder of king moves that force it into the corner where the black king delivers mate.
+
+SOLUTION: e3e2 d1c1 d3c2 c1b1 c2b2 b1c1",,,,,,GNN
+FISjq,5,1k5r/ppp5/6q1/8/5pP1/3r1P2/PPQ3K1/3R1R2 b - - 0 29,SOLUTION: g6g4 f2f2 g4g2,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h8h2 (confidenza 51%)
+Alternative considerate per la prima mossa: h8h2 (51%), g6g4 (36%), g6g5 (2%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+ZHXwQ,5,5rk1/2R1Qppp/8/1q5P/3p2BK/8/8/8 w - - 0 51,"Suggerimento per il matto in 5:
+  mossa 1 del solver: e7f7 (confidenza 97%)
+  mossa 2 del solver: c7c8 (confidenza 99%)
+  mossa 3 del solver: c8e8 (confidenza 100%)
+  mossa 4 del solver: g4e6 (confidenza 99%)
+  mossa 5 del solver: e8f8 (confidenza 100%)
+Alternative considerate per la prima mossa: e7f7 (97%), e7f8 (2%), e7e4 (0%)
+Tempo di calcolo: 0.02s","The key is to force the black king onto a square where the white rook and bishop deliver an unavoidable mate; the queen sacrifice removes the defender on the eighth rank, after which the rook and bishop coordinate to finish the job in exactly five plies.
+
+SOLUTION: e7e8 r8e8 g4c8 e8c8 c7g7",,,,,,GNN
+ZPrGN,5,2N5/pp3k1p/6pb/4pp2/1QPq4/P7/RP1r1PPP/5RK1 b - - 0 31,"Suggerimento per il matto in 5:
+  mossa 1 del solver: d4f2 (confidenza 99%)
+  mossa 2 del solver: d2d1 (confidenza 99%)
+  mossa 3 del solver: d1e1 (confidenza 100%)
+  mossa 4 del solver: h6e3 (confidenza 100%)
+  mossa 5 del solver: e1f1 (confidenza 100%)
+Alternative considerate per la prima mossa: d4f2 (99%), d4d3 (0%), d4e4 (0%)
+Tempo di calcolo: 0.02s","The key is to force White’s queen to capture on c3, after which Black’s rook slides onto c3 delivering a back‑rank mate that cannot be escaped.
+
+SOLUTION: d4c3 c4c3 d1c3",,,,,,GNN
+N15zY,5,5rk1/p2R1ppp/bpB5/8/P7/5QP1/2P2PKP/4q3 w - - 1 29,"Suggerimento per il matto in 5:
+  mossa 1 del solver: f3f7 (confidenza 100%)
+  mossa 2 del solver: d7d8 (confidenza 100%)
+  mossa 3 del solver: c6d5 (confidenza 95%)
+  mossa 4 del solver: d5e6 (confidenza 100%)
+  mossa 5 del solver: d8f8 (confidenza 100%)
+Alternative considerate per la prima mossa: f3f7 (100%), f3f5 (0%), d7f7 (0%)
+Tempo di calcolo: 0.02s","The key is to force the black rook to leave the f‑file with a queen sac, then bring the white rook to d8 to force the exchange of the defending rook, after which the white bishop can deliver the final blow on f8.  
+
+SOLUTION: f3f7 r8f7 d7d8 f8d8 c6f8",,,,,,GNN
+M8V7M,5,r7/ppk2r2/2p5/8/1Q1R4/3B4/q1P2PKP/8 w - - 13 37,"The key is the queen sacrifice on d6 which forces the black king onto b6; then the rook comes to d6 delivering a forced mate because all escape squares are covered by White’s pieces.
+
+SOLUTION: d4d7 f7d7 b4d6 b6b5 d6d6","Suggerimento per il matto in 5:
+  mossa 1 del solver: b4d6 (confidenza 70%)
+  mossa 2 del solver: d4h4 (confidenza 17%)
+Alternative considerate per la prima mossa: b4d6 (70%), b4b7 (10%), d4d6 (8%)
+Tempo di calcolo: 0.01s",,,,,,LLM
+ym4oP,5,r5k1/1p2Qppp/2p5/1n1P4/1R6/5NB1/5PPP/r4R1K b - - 0 29,,"Suggerimento per il matto in 5:
+  mossa 1 del solver: a1f1 (confidenza 50%)
+  mossa 2 del solver: f1g1 (confidenza 86%)
+  mossa 3 del solver: a8a1 (confidenza 81%)
+  mossa 4 del solver: a1b1 (confidenza 100%)
+  mossa 5 del solver: b1e1 (confidenza 100%)
+Alternative considerate per la prima mossa: a1f1 (50%), a8a2 (29%), b5c3 (16%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+ECwiG,5,7k/p5r1/4PQ2/7p/5pPr/2P3qP/PP3RP1/5R1K b - - 0 35,"Suggerimento per il matto in 5:
+  mossa 1 del solver: h4h3 (confidenza 95%)
+  mossa 2 del solver: g3h3 (confidenza 53%)
+  mossa 3 del solver: h3g3 (confidenza 47%)
+Alternative considerate per la prima mossa: h4h3 (95%), h5g4 (4%), h4g4 (1%)
+Tempo di calcolo: 0.01s","The key is the queen sacrifice on h2: 1…Qh2+ forces the king to capture (Kg1 and other replies are illegal), and after 2.Kxh2 the rook on h4 slides to h3 delivering immediate mate. No white piece can interpose or capture the queen, so the mate is forced.
+
+SOLUTION: g3h2 h1h2 h4h3",,,,,,GNN
+DkhOS,5,r1b3k1/8/1pNp1bp1/1P1Pp3/4Q3/pP5q/P1B5/2K5 w - - 0 36,"The key is to force the black queen off the defense of the back rank with a queen sacrifice, after which the knight jump to d8 delivers inevitable checkmate; Black cannot interpose any piece or give the king an escape square.
+
+SOLUTION: e4c8 a8c8 c6d8","Suggerimento per il matto in 5:
+  mossa 1 del solver: e4g6 (confidenza 93%)
+  mossa 2 del solver: g6e8 (confidenza 55%)
+  mossa 3 del solver: c6e7 (confidenza 96%)
+  mossa 4 del solver: e8g6 (confidenza 99%)
+  mossa 5 del solver: g6g8 (confidenza 88%)
+Alternative considerate per la prima mossa: e4g6 (93%), c6e7 (4%), e4c4 (1%)
+Tempo di calcolo: 0.02s",,,,,,LLM
+gGNxK,5,2k5/Qp6/2qP3r/4p3/3n4/5Np1/PP2B1P1/1K1R4 b - - 0 32,"Suggerimento per il matto in 5:
+  mossa 1 del solver: c6c2 (confidenza 89%)
+Alternative considerate per la prima mossa: c6c2 (89%), d4e2 (4%), h6g6 (2%)
+Tempo di calcolo: 0.00s",SOLUTION: c6c2 b1a1 c2c1,,,,,,GNN
+XWqKk,5,5rk1/p3Q1pp/8/1p4q1/8/3P2P1/P1P2P1K/4R3 b - - 0 24,"The key is the rook sacrifice on f2, which forces the white king onto a vulnerable square; Black’s queen then infiltrates with decisive checks that cannot be parried, culminating in mate on the fifth ply.
+
+SOLUTION: f8f2 g1g2 g5g2 g5g1 h2g1","Suggerimento per il matto in 5:
+  mossa 1 del solver: g5d2 (confidenza 31%)
+Alternative considerate per la prima mossa: g5d2 (31%), f8f2 (23%), f8f3 (14%)
+Tempo di calcolo: 0.00s",,,,,,LLM
+RoLgf,5,7k/R5R1/P6p/7K/8/7P/r2p4/4r3 w - - 1 41,"Suggerimento per il matto in 5:
+  mossa 1 del solver: g7h7 (confidenza 40%)
+Alternative considerate per la prima mossa: g7h7 (40%), g7g8 (39%), h5g6 (7%)
+Tempo di calcolo: 0.00s",SOLUTION: g7g8+ hxg8 a6a7 a8a8=Q+ d2d1Q a8g8#,,,,,,GNN

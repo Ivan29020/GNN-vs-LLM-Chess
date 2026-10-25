@@ -1,0 +1,7 @@
+{
+  "backend": "groq",
+  "model_name": "openai/gpt-oss-120b",
+  "n_samples": 150,
+  "max_tokens": 4096,
+  "prompt_sha256": "5f76bffc5143e824c6d17a56fbcb3dea9c747020ba221c375e77b931eab4b44f"
+}

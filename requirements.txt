@@ -1,0 +1,24 @@
+# Fase 1 — dati
+python-chess
+zstandard
+pyarrow
+tqdm
+scikit-learn
+requests
+pandas
+numpy
+
+# Fase 2/3 — grafo e modello (torch_geometric va installato DOPO torch,
+# vedi README.md per il comando corretto su Colab)
+torch
+torch_geometric
+
+# Fase 3 — grafici
+matplotlib
+
+# Fase 4 — baseline LLM (installa solo quello del backend che usi davvero)
+anthropic
+openai
+google-genai      # per LLM_BACKEND="gemini"
+groq              # per LLM_BACKEND="groq" (default, gratuito, ~14.400 richieste/giorno)
+scipy

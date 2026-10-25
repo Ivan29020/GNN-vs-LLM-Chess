@@ -1,0 +1,6 @@
+mate_n,n_puzzle,entrambi_corretti,solo_gnn_corretta,solo_llm_corretta,nessuno_corretto
+1,30,19,9,1,1
+2,30,4,22,0,4
+3,30,0,19,0,11
+4,30,0,13,0,17
+5,30,0,4,0,26

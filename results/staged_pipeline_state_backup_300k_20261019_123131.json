@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "config": {
+    "subset_size": 300000,
+    "num_epochs": 100,
+    "early_stopping_patience": 10,
+    "early_stopping_min_delta": 0.001,
+    "hidden_dim": 256,
+    "num_layers": 5,
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "graph_cache_max_items": 200000,
+    "random_seed": 42,
+    "full_seq_eval_size": 5000
+  },
+  "stages": {
+    "timed": {
+      "status": "in_progress",
+      "updated_utc": "2026-10-16T10:10:36Z",
+      "checkpoint": "timed_gnn_tv2_subset300k_best.pt"
+    }
+  }
+}
