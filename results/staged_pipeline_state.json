@@ -39,13 +39,6 @@
       "status": "in_progress",
       "updated_utc": "2026-10-23T13:42:22Z",
       "checkpoint": "no_timing_gnn_subset300k_balanced_rating_v3_best.pt"
-    },
-    "compare": {
-      "status": "complete",
-      "updated_utc": "2026-10-25T11:10:15Z",
-      "paired_results_mixed": "paired_gnn_vs_llm_balanced300k_v3.csv",
-      "paired_results_lichess": "paired_gnn_vs_llm_held_out_lichess_balanced300k_v3.csv",
-      "llm_model": "openai/gpt-oss-120b"
     }
   }
 }

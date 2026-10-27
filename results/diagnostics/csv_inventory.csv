@@ -1,0 +1,20 @@
+file,rows,columns,columns_list
+ablation_timing_balanced300k_v3.csv,5,7,mate_n | acc_seq_timed | acc_seq_no_timing | acc_per_mossa_timed | acc_per_mossa_no_timing | n_puzzle | delta_seq
+accuracy_by_n_balanced300k_v3.csv,5,7,mate_n | gnn_acc | llm_acc | gnn_first_move | llm_first_move | n_puzzles | fonte
+accuracy_by_n_held_out_lichess_balanced300k_v3.csv,5,7,mate_n | gnn_acc | llm_acc | gnn_first_move | llm_first_move | n_puzzles | fonte
+confusion_matrices_by_n_balanced300k_v3.csv,5,6,mate_n | n_puzzle | entrambi_corretti | solo_gnn_corretta | solo_llm_corretta | nessuno_corretto
+confusion_matrices_by_n_held_out_lichess_balanced300k_v3.csv,5,6,mate_n | n_puzzle | entrambi_corretti | solo_gnn_corretta | solo_llm_corretta | nessuno_corretto
+human_eval_blind_WITH_ANSWER_KEY_balanced300k_v3.csv,150,11,PuzzleId | mate_n | FEN | Modello_A | Modello_B | A_correttezza_1_5 | A_concisione_1_5 | B_correttezza_1_5 | B_concisione_1_5 | quale_guida_e_migliore_A_B_pari | _true_label_A
+human_eval_blind_WITH_ANSWER_KEY_held_out_lichess_balanced300k_v3.csv,150,11,PuzzleId | mate_n | FEN | Modello_A | Modello_B | A_correttezza_1_5 | A_concisione_1_5 | B_correttezza_1_5 | B_concisione_1_5 | quale_guida_e_migliore_A_B_pari | _true_label_A
+human_eval_blind_balanced300k_v3.csv,150,10,PuzzleId | mate_n | FEN | Modello_A | Modello_B | A_correttezza_1_5 | A_concisione_1_5 | B_correttezza_1_5 | B_concisione_1_5 | quale_guida_e_migliore_A_B_pari
+human_eval_blind_held_out_lichess_balanced300k_v3.csv,150,10,PuzzleId | mate_n | FEN | Modello_A | Modello_B | A_correttezza_1_5 | A_concisione_1_5 | B_correttezza_1_5 | B_concisione_1_5 | quale_guida_e_migliore_A_B_pari
+llm_eval_sample.csv,150,9,PuzzleId | FEN | Moves | Rating | Popularity | mate_n | rating_norm | has_opening_move | source
+llm_eval_sample_held_out_lichess.csv,150,9,PuzzleId | FEN | Moves | Rating | Popularity | mate_n | rating_norm | has_opening_move | source
+llm_evaluation_raw.csv,150,11,PuzzleId | mate_n | fen_after_opening | target_moves | proposed_moves | response_time_sec | llm_explanation | first_move_correct | full_sequence_correct | proposed_legal | interpretation
+llm_evaluation_raw_held_out_lichess.csv,150,11,PuzzleId | mate_n | fen_after_opening | target_moves | proposed_moves | response_time_sec | llm_explanation | first_move_correct | full_sequence_correct | proposed_legal | interpretation
+n_distribution_balanced200k_v3.csv,6,6,Unnamed: 0 | train | val | test | held-out misto | held-out Lichess-only
+n_distribution_balanced300k_v3.csv,6,6,Unnamed: 0 | train | val | test | held-out misto | held-out Lichess-only
+paired_gnn_vs_llm_balanced300k_v3.csv,150,18,PuzzleId | mate_n | fen_after_opening | target_moves | proposed_moves | response_time_sec | llm_explanation | first_move_correct | full_sequence_correct | proposed_legal | interpretation | gnn_first_move_correct | gnn_full_sequence_correct | gnn_predicted_moves | gnn_guidance | gnn_first_move_confidence | gnn_solve_time_sec | source
+paired_gnn_vs_llm_held_out_lichess_balanced300k_v3.csv,150,18,PuzzleId | mate_n | fen_after_opening | target_moves | proposed_moves | response_time_sec | llm_explanation | first_move_correct | full_sequence_correct | proposed_legal | interpretation | gnn_first_move_correct | gnn_full_sequence_correct | gnn_predicted_moves | gnn_guidance | gnn_first_move_confidence | gnn_solve_time_sec | source
+test_sequence_no_timing_subset300k_balanced_rating_v3.csv,5000,11,first_move_correct | full_sequence_correct | num_plies | predicted_moves | confidences | mean_confidence | first_move_confidence | top3_first_move | solve_time_sec | PuzzleId | mate_n
+test_sequence_timed_subset300k_balanced_rating_v3.csv,5000,11,first_move_correct | full_sequence_correct | num_plies | predicted_moves | confidences | mean_confidence | first_move_confidence | top3_first_move | solve_time_sec | PuzzleId | mate_n

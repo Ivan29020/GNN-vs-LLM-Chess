@@ -1,0 +1,64 @@
+CHESS TIMED GNN — REPORT DIAGNOSTICO
+Run UTC: 2026-10-25T13:49:20Z
+Project root: /content/drive/MyDrive/chess_timed_gnn
+Full dataset replay: False
+Nota: una linea legale che termina in matto NON dimostra da sola che il matto sia forzato contro ogni difesa.
+Nota: il campo legacy proposed_legal indica legalità nel formato interpretato dal vecchio evaluator, non prova che il matto sia risolto.
+
+HELD-OUT mixed: 150 righe; linee legali 150/150; termina in matto 150/150; lunghezza coerente con mate_n 140/150
+  composizione: {(1, 'polgar'): 30, (2, 'polgar'): 30, (3, 'polgar'): 30, (4, 'lichess'): 30, (5, 'lichess'): 30}
+  WARNING: 10 righe hanno numero mosse del solver diverso da mate_n; vedere data_line_validation.csv
+HELD-OUT lichess_only: 150 righe; linee legali 150/150; termina in matto 150/150; lunghezza coerente con mate_n 143/150
+  composizione: {(1, 'lichess'): 30, (2, 'lichess'): 30, (3, 'lichess'): 30, (4, 'lichess'): 30, (5, 'lichess'): 30}
+  WARNING: 7 righe hanno numero mosse del solver diverso da mate_n; vedere data_line_validation.csv
+sample_lichess_only: 150 righe; non legali=0; senza matto finale=0; lunghezza target N non coerente=7
+sample_mixed: 150 righe; non legali=0; senza matto finale=0; lunghezza target N non coerente=10
+LEAKAGE train (controllo rapido ID/FEN originale): ID overlap=0, FEN overlap=0
+LEAKAGE validation (controllo rapido ID/FEN originale): ID overlap=0, FEN overlap=0
+LEAKAGE test (controllo rapido ID/FEN originale): ID overlap=0, FEN overlap=0
+Split totals: {'test': 30000, 'train': 240000, 'validation': 30000}
+Configured SUBSET_SIZE=300000; observed train+val+test=300000
+Distribuzione mate_n × rating_bin salvata in data_n_by_rating_bin_distribution_with_fractions.csv
+SPLIT OVERLAP train × validation: ID=0, original FEN=31
+SPLIT OVERLAP train × test: ID=0, original FEN=34
+SPLIT OVERLAP validation × test: ID=0, original FEN=7
+HELD-OUT mixed composition exact=True; counts={(1, 'polgar'): 30, (2, 'polgar'): 30, (3, 'polgar'): 30, (4, 'lichess'): 30, (5, 'lichess'): 30}
+HELD-OUT Lichess-only counts by N={1: 30, 2: 30, 3: 30, 4: 30, 5: 30}; all source Lichess=True
+HELD-OUT overlap mixed × Lichess-only: IDs=0, original FEN=0
+LLM mixed: righe raw=150, id unici=150
+  proposta vuota=6; tag SOLUTION mancante=6; target non legale=0; target non termina in matto=0
+  proposta legale come linea alternata=66/150; linea alternata termina in matto=15/150
+  proposta legale come sole mosse solver + risposte target=32/150; termina in matto su risposte target=14/150
+  più corta del target=97/150; esatta a linea completa=15/150; esatta alle sole mosse solver=14/150
+  campione canonico=150; ID campione mancanti nel raw=0; ID extra nel raw=0
+  N1: n=30; empty=0; exact_full=14; alt-line legal=26; ends-mate=14
+  N2: n=30; empty=3; exact_full=1; alt-line legal=15; ends-mate=1
+  N3: n=30; empty=1; exact_full=0; alt-line legal=12; ends-mate=0
+  N4: n=30; empty=1; exact_full=0; alt-line legal=8; ends-mate=0
+  N5: n=30; empty=1; exact_full=0; alt-line legal=5; ends-mate=0
+LLM lichess_only: righe raw=150, id unici=150
+  proposta vuota=5; tag SOLUTION mancante=5; target non legale=0; target non termina in matto=0
+  proposta legale come linea alternata=69/150; linea alternata termina in matto=25/150
+  proposta legale come sole mosse solver + risposte target=34/150; termina in matto su risposte target=20/150
+  più corta del target=89/150; esatta a linea completa=24/150; esatta alle sole mosse solver=20/150
+  campione canonico=150; ID campione mancanti nel raw=0; ID extra nel raw=0
+  N1: n=30; empty=0; exact_full=20; alt-line legal=29; ends-mate=20
+  N2: n=30; empty=1; exact_full=4; alt-line legal=14; ends-mate=5
+  N3: n=30; empty=2; exact_full=0; alt-line legal=10; ends-mate=0
+  N4: n=30; empty=0; exact_full=0; alt-line legal=8; ends-mate=0
+  N5: n=30; empty=2; exact_full=0; alt-line legal=8; ends-mate=0
+ABLATION: n=5000, ID uguali; differenze mate_n tra csv=0
+ABLATION first_move_correct: Timed=80.9800% (4049/5000), no-timing=80.4200% (4021/5000), delta=+0.560 pp, paired bootstrap 95% CI=[-0.260,+1.360] pp, McNemar exact p=0.183386, discordanti only-timed=220, only-no=192
+ABLATION full_sequence_correct: Timed=68.6600% (3433/5000), no-timing=67.4200% (3371/5000), delta=+1.240 pp, paired bootstrap 95% CI=[+0.460,+2.040] pp, McNemar exact p=0.00307675, discordanti only-timed=244, only-no=182
+AVVISO: colonna p-value McNemar assente per first_move_correct; correzione Holm non calcolata.
+AVVISO: colonna p-value McNemar assente per full_sequence_correct; correzione Holm non calcolata.
+GNN timed: righe CSV=5000; PuzzleId senza riferimento in test parquet=0
+GNN no_timing: righe CSV=5000; PuzzleId senza riferimento in test parquet=0
+GNN evaluation: righe con numero mosse di riferimento diverso da mate_n=294/10000 (sommando entrambe le varianti; può essere doppio conteggio)
+Inventario CSV risultati: 19 file; salvato in csv_inventory.csv
+Human eval human_eval_blind_WITH_ANSWER_KEY_balanced300k_v3.csv: righe=150, valori rubric compilati=0
+Human eval human_eval_blind_WITH_ANSWER_KEY_held_out_lichess_balanced300k_v3.csv: righe=150, valori rubric compilati=0
+Human eval human_eval_blind_balanced300k_v3.csv: righe=150, valori rubric compilati=0
+Human eval human_eval_blind_held_out_lichess_balanced300k_v3.csv: righe=150, valori rubric compilati=0
+
+Durata report: 17.3 secondi

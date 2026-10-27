@@ -1,0 +1,3 @@
+metric,n_pairs,timed_correct,no_timing_correct,timed_accuracy,no_timing_accuracy,delta_pp,delta_ci95_low_pp,delta_ci95_high_pp,timed_only_correct,no_timing_only_correct,mcnemar_exact_p
+first_move_correct,5000,4049,4021,0.8098,0.8042,0.5599999999999938,-0.26,1.3599999999999999,220,192,0.18338616251303522
+full_sequence_correct,5000,3433,3371,0.6866,0.6742,1.2399999999999967,0.45999999999999996,2.04,244,182,0.0030767483102553295

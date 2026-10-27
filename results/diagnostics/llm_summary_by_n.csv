@@ -1,0 +1,11 @@
+dataset,mate_n,n,first_move_matches_target,exact_full_target,exact_solver_moves,empty_proposal_count,target_line_invalid_count,target_not_mate_count,proposal_legal_alternating_count,proposal_ends_mate_alternating_count,proposal_legal_solver_only_ref_replies_count,proposal_mates_vs_reference_replies_count,shorter_than_full_target_count,solution_tag_missing_count,legacy_proposed_legal_count
+mixed,1,30,0.4666666666666667,0.4666666666666667,0.4666666666666667,0,0,0,26,14,26,14,0,0,26
+mixed,2,30,0.13333333333333333,0.03333333333333333,0.0,3,0,0,15,1,2,0,12,3,13
+mixed,3,30,0.23333333333333334,0.0,0.0,1,0,0,12,0,3,0,26,1,11
+mixed,4,30,0.2,0.0,0.0,1,0,0,8,0,1,0,29,1,7
+mixed,5,30,0.13333333333333333,0.0,0.0,1,0,0,5,0,0,0,30,1,4
+lichess_only,1,30,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,0,29,20,29,20,0,0,29
+lichess_only,2,30,0.43333333333333335,0.13333333333333333,0.0,1,0,0,14,5,2,0,8,1,13
+lichess_only,3,30,0.23333333333333334,0.0,0.0,2,0,0,10,0,1,0,26,2,8
+lichess_only,4,30,0.13333333333333333,0.0,0.0,0,0,0,8,0,0,0,25,0,8
+lichess_only,5,30,0.2,0.0,0.0,2,0,0,8,0,2,0,30,2,6

@@ -1,6 +1,6 @@
 """
 src/llm_baseline.py
--------------------
+---------------------
 Fase 4, parte A — Baseline LLM (equivalente alle sezioni 0-6 di
 04_llm_baseline_comparison.ipynb).
 
@@ -30,9 +30,7 @@ from src.chess_encoding import get_position_after_opening
 PROMPT_TEMPLATE = """You are a chess expert. Analyze this position and find the forced checkmate.
 
 FEN: {fen}
-
 Side to move: {side}
-
 The position has a forced checkmate in exactly {n} move(s) for the side to move.
 
 First explain your reasoning step by step, briefly (2-4 sentences maximum —
@@ -53,6 +51,7 @@ Rules for that line, follow them exactly:
 
 Example of a correctly formatted line for a mate in 2:
 SOLUTION: d8h4 g5h4 c1g5
+
 """
 
 SOLUTION_LINE_RE = re.compile(r"SOLUTION:\s*(.+)")
@@ -140,7 +139,7 @@ def call_llm(client, prompt: str, backend: str = config.LLM_BACKEND,
                 # interno nascosto (non e' il testo che chiediamo nel
                 # prompt, e' un canale separato che i modelli gpt-oss usano
                 # PRIMA di scrivere la risposta visibile). reasoning_format
-                # ="hidden" evita che quel canale competa ulteriormente con
+                #="hidden" evita che quel canale competa ulteriormente con
                 # lo spazio della risposta visibile. max_completion_tokens
                 # e' il nome corretto del parametro per i modelli
                 # "reasoning" lato Groq (max_tokens resta supportato come
@@ -177,13 +176,14 @@ def call_llm(client, prompt: str, backend: str = config.LLM_BACKEND,
                 # di sprecare `max_retries` tentativi con attese crescenti.
                 raise DailyQuotaExceededError(str(e)) from e
             wait = 2 ** attempt
-            print(f" [tentativo {attempt+1}/{max_retries}] errore: {e} -> retry tra {wait}s")
+            print(f"  [tentativo {attempt + 1}/{max_retries}] errore: {e} -> retry tra {wait}s")
             time.sleep(wait)
     raise RuntimeError("Chiamata LLM fallita dopo tutti i retry")
 
 
 def parse_solution(response_text: str, starting_fen: str = None):
     """Estrae la lista di mosse UCI dalla riga 'SOLUTION: ...'.
+
     1) Prova diretta in notazione UCI (quella richiesta esplicitamente nel
        prompt).
     2) Fallback: alcuni modelli rispondono in notazione SAN (es. 'Qxh4#')
@@ -213,7 +213,7 @@ def parse_solution(response_text: str, starting_fen: str = None):
     except ValueError:
         return None
 
-    san_tokens = re.findall(r"O-O-O[+#]?|O-O[+#]?|[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8]?[+#]?", match)
+    san_tokens = re.findall(r"O-O-O[+#]?|O-O[+#]?|[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8](?:=[QRBN])?[+#]?", match)
     uci_tokens = []
     for tok in san_tokens:
         try:
@@ -265,7 +265,7 @@ def _play_solver_only(fen: str, proposed, target_moves) -> bool:
 def evaluate_llm_solution(fen_after_opening: str, target_moves_uci, proposed_uci_list):
     """Valuta la risposta dell'LLM con UNA sola metrica di sequenza completa,
     confrontabile con quella della GNN.
-    
+
     `target_moves_uci` e' la linea COMPLETA e alternata (mossa del solver,
     risposta avversario, mossa del solver, ...). La GNN predice soltanto le
     PROPRIE mosse, quindi `full_sequence_correct` e' vero se la proposta
@@ -273,7 +273,7 @@ def evaluate_llm_solution(fen_after_opening: str, target_moves_uci, proposed_uci
     solver (indici pari della linea): in pratica "il modello ha trovato
     tutte le mosse che toccavano a lui". (In pratica i due formati danno gli
     stessi risultati, dato che il prompt chiede la linea alternata.)
-    
+
     Metriche prodotte:
     - `first_move_correct`: la prima mossa coincide con quella di soluzione.
     - `full_sequence_correct`: vedi sopra (metrica primaria del confronto).
@@ -306,22 +306,8 @@ def evaluate_llm_solution(fen_after_opening: str, target_moves_uci, proposed_uci
         and len(target_moves_uci) > 0
         and proposed_uci_list[0] == target_moves_uci[0]
     )
-
     full_sequence_correct = (proposed_uci_list == target_moves_uci
                              or proposed_uci_list == solver_targets)
-                             
-    # [FIX] Se la sequenza è legale e termina con scacco matto, il puzzle è risolto
-    # Questo corregge il bug che penalizzava l'LLM per linee di matto alternative 
-    # o ritardi dell'avversario non previsti dal dataset.
-    if not full_sequence_correct and legal_alternating:
-        try:
-            board = chess.Board(fen_after_opening)
-            for uci in proposed_uci_list:
-                board.push(chess.Move.from_uci(uci))
-            if board.is_checkmate():
-                full_sequence_correct = True
-        except Exception:
-            pass
 
     return {
         "first_move_correct": first_move_correct,
@@ -334,6 +320,7 @@ def evaluate_llm_solution(fen_after_opening: str, target_moves_uci, proposed_uci
 def allocate_quota(group_sizes: dict, n_samples: int) -> dict:
     """Ripartisce `n_samples` fra i gruppi con un round-robin che
     REDISTRIBUISCE la quota non spendibile.
+
     Il campionamento precedente faceva `min(len(g), n_samples // n_gruppi)`
     per ogni gruppo: con 6 valori di n e n_samples=100 significava 16 a
     testa, ma i gruppi rari (n=5 con 1 solo puzzle, n=7 con 2) non
@@ -360,10 +347,10 @@ def load_evaluation_set(n_samples: int = config.LLM_N_SAMPLES) -> pd.DataFrame:
     da 1 a 5, vedi src/held_out.py). Con n_samples >= dimensione dell'held-out
     (default 150) si usa TUTTO l'held-out; con un valore minore si
     sottocampiona restando bilanciati per n.
-    
+
     Se l'held-out non esiste si ripiega sul test set interno di Lichess,
     SOLO per collaudare la pipeline (non e' una valutazione valida).
-    
+
     IL CAMPIONE E' PERSISTENTE (config.LLM_EVAL_SAMPLE_CSV): salvato la prima
     volta e ricaricato identico nelle riprese successive, cosi' una
     valutazione spalmata su piu' giorni (quota API) non mescola campioni
@@ -394,8 +381,8 @@ def load_evaluation_set(n_samples: int = config.LLM_N_SAMPLES) -> pd.DataFrame:
             if "rating_norm" in df_eval_full.columns:
                 df_saved = df_saved.drop(columns=[c for c in ("rating_norm", "simulated_think_time_sec")
                                                   if c in df_saved.columns])
-            df_saved = df_saved.merge(df_eval_full[["PuzzleId", "rating_norm"]],
-                                      on="PuzzleId", how="left")
+                df_saved = df_saved.merge(df_eval_full[["PuzzleId", "rating_norm"]],
+                                          on="PuzzleId", how="left")
             print(f"\nCampione di valutazione RIUSATO da {config.LLM_EVAL_SAMPLE_CSV} "
                   f"({len(df_saved)} puzzle). Distribuzione per n:")
             print(df_saved["mate_n"].value_counts().sort_index().to_string())
@@ -407,13 +394,15 @@ def load_evaluation_set(n_samples: int = config.LLM_N_SAMPLES) -> pd.DataFrame:
 
     groups = {int(n): g for n, g in df_eval_full.groupby("mate_n")}
     quota = allocate_quota({n: len(g) for n, g in groups.items()}, n_samples)
+
     df_eval = pd.concat(
         [groups[n].sample(quota[n], random_state=0) for n in sorted(groups) if quota[n] > 0],
         ignore_index=True,
     )
+
     print(f"\nCampione di valutazione: {len(df_eval)} puzzle su {n_samples} richiesti:")
     for n in sorted(groups):
-        print(f" mate in {n}: {quota[n]:>3} scelti su {len(groups[n]):>3} disponibili")
+        print(f"  mate in {n}: {quota[n]:>3} scelti su {len(groups[n]):>3} disponibili")
 
     os.makedirs(os.path.dirname(config.LLM_EVAL_SAMPLE_CSV), exist_ok=True)
     df_eval.to_csv(config.LLM_EVAL_SAMPLE_CSV, index=False)
@@ -422,7 +411,7 @@ def load_evaluation_set(n_samples: int = config.LLM_N_SAMPLES) -> pd.DataFrame:
 
 
 def run_llm_evaluation(df_eval: pd.DataFrame, client, backend=config.LLM_BACKEND,
-                       model_name=config.LLM_MODEL_NAME) -> pd.DataFrame:
+                        model_name=config.LLM_MODEL_NAME) -> pd.DataFrame:
     # --- Ripresa: se esiste già un CSV di risultati (da una run precedente
     # interrotta per quota esaurita), salta i puzzle già valutati con
     # successo invece di richiamarli di nuovo. ---
@@ -433,7 +422,6 @@ def run_llm_evaluation(df_eval: pd.DataFrame, client, backend=config.LLM_BACKEND
         print(f"LLM_FRESH_START attivo: la run precedente e' stata spostata in {backup} "
               "e la valutazione riparte da zero (necessario dopo ogni modifica del "
               "prompt o delle metriche).")
-
     if os.path.exists(config.LLM_RAW_CSV):
         already_done = pd.read_csv(config.LLM_RAW_CSV)
         if "solver_moves_correct" in already_done.columns:
@@ -483,7 +471,7 @@ def run_llm_evaluation(df_eval: pd.DataFrame, client, backend=config.LLM_BACKEND
             quota_exceeded = True
             break
         except RuntimeError as e:
-            print(f"\n[{i}] puzzle {row['PuzzleId']} : FALLITO ({e})")
+            print(f"[{i}] puzzle {row['PuzzleId']}: FALLITO ({e})")
             continue
         elapsed = time.time() - t0
 
@@ -515,19 +503,18 @@ def run_llm_evaluation(df_eval: pd.DataFrame, client, backend=config.LLM_BACKEND
     else:
         print(f"\nCompletato: {len(df_llm)} puzzle valutati con successo in totale "
               f"({len(llm_results)} in questa run).")
-
     return df_llm
 
 
 def print_llm_metrics(df_llm: pd.DataFrame) -> None:
     print("=== Metriche LLM (campione valutato) ===")
-    print(f"Accuracy prima mossa: {df_llm['first_move_correct'].mean():.3f}")
-    print(f"Accuracy sequenza completa: {df_llm['full_sequence_correct'].mean():.3f}")
-    print(f"% risposte con mosse legali: {df_llm['proposed_legal'].mean():.3f}")
-    print(f"Tempo medio di risposta (efficienza): {df_llm['response_time_sec'].mean():.1f}s")
+    print(f"Accuracy prima mossa:                  {df_llm['first_move_correct'].mean():.3f}")
+    print(f"Accuracy sequenza completa:            {df_llm['full_sequence_correct'].mean():.3f}")
+    print(f"% risposte con mosse legali:           {df_llm['proposed_legal'].mean():.3f}")
+    print(f"Tempo medio di risposta (efficienza):  {df_llm['response_time_sec'].mean():.1f}s")
     if "interpretation" in df_llm.columns:
         print("\nFormato della risposta (diagnostica del prompt):")
         for k, v in df_llm["interpretation"].value_counts().items():
-            print(f" - {k}: {v} ({v/len(df_llm):.0%})")
+            print(f"  - {k}: {v} ({v / len(df_llm):.0%})")
     print("\nAccuracy per valore di n (prima mossa / sequenza completa):")
     print(df_llm.groupby("mate_n")[["first_move_correct", "full_sequence_correct"]].mean().round(3))

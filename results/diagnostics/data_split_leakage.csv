@@ -1,0 +1,4 @@
+split,rows,id_overlap_heldout,original_fen_overlap_heldout
+train,240000,0,0
+validation,30000,0,0
+test,30000,0,0
